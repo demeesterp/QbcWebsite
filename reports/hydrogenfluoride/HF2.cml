@@ -1,0 +1,12 @@
+<molecule>
+  <atomArray>
+    <atom id="1" elementType="FLUORINE" x3="8.1467260" y3="-2.3906115" z3="9.6725946" />
+    <atom id="2" elementType="HYDROGEN" x3="11.3313297" y3="-2.4009992" z3="10.1149244" />
+    <atom id="3" elementType="FLUORINE" x3="10.6681771" y3="-2.7596766" z3="10.6615068" />
+    <atom id="4" elementType="HYDROGEN" x3="8.9550672" y3="-2.5750727" z3="10.1056342" />
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="2 3" order="1" />
+    <bond atomRefs2="1 4" order="1" />
+  </bondArray>
+</molecule>

@@ -1,0 +1,307 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      9311,        297]
+NotebookOptionsPosition[      8771,        273]
+NotebookOutlinePosition[      9114,        288]
+CellTagsIndexPosition[      9071,        285]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"AtomList", "=", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0.05869", ",", "0.05869", ",", "0.00000"}], "}"}], ",", 
+          RowBox[{"-", "0.79360"}]}], "}"}], ",", "\"\<O1\>\""}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1.01491", ",", 
+            RowBox[{"-", "0.07360"}], ",", "0.00000"}], "}"}], ",", 
+          "0.39680"}], "}"}], ",", "\"\<H2\>\""}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"-", "0.07360"}], ",", "1.01491", ",", "0.00000"}], "}"}],
+           ",", "0.39680"}], "}"}], ",", "\"\<H3\>\""}], "}"}]}], "}"}], "/.", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"a_", ",", "b_", ",", "c_"}], "}"}], ",", "d_"}], "}"}], 
+       ",", "e_"}], "}"}], "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{"d", "<", "0"}], ",", 
+         RowBox[{"Lighter", "[", 
+          RowBox[{
+           RowBox[{"RGBColor", "[", 
+            RowBox[{"255", ",", "0", ",", "0"}], "]"}], ",", 
+           RowBox[{"1", "-", 
+            RowBox[{"Abs", "[", "d", "]"}]}]}], "]"}], ",", 
+         RowBox[{"Lighter", "[", 
+          RowBox[{
+           RowBox[{"RGBColor", "[", 
+            RowBox[{"0", ",", "0", ",", "255"}], "]"}], ",", 
+           RowBox[{"1", "-", 
+            RowBox[{"Abs", "[", "d", "]"}]}]}], "]"}]}], "]"}], ",", 
+       RowBox[{"Sphere", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", "0.3"}], "]"}], ",", 
+       RowBox[{"Text", "[", 
+        RowBox[{"e", ",", 
+         RowBox[{"{", 
+          RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", 
+         RowBox[{"BaseStyle", "\[Rule]", 
+          RowBox[{"{", 
+           RowBox[{"Bold", ",", "Black"}], "}"}]}]}], "]"}]}], "}"}]}]}]}], 
+  "\n"}]], "Input",
+ CellChangeTimes->{{3.5737458699699183`*^9, 3.573745881254275*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"RGBColor", "[", 
+      RowBox[{
+      "1.`", ",", "0.20640000000000003`", ",", "0.20640000000000003`"}], 
+      "]"}], ",", 
+     RowBox[{"Sphere", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0.05869`", ",", "0.05869`", ",", "0.`"}], "}"}], ",", 
+       "0.3`"}], "]"}], ",", 
+     RowBox[{"Text", "[", 
+      RowBox[{"\<\"O1\"\>", ",", 
+       RowBox[{"{", 
+        RowBox[{"0.05869`", ",", "0.05869`", ",", "0.`"}], "}"}], ",", 
+       RowBox[{"BaseStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"Bold", ",", 
+          RowBox[{"GrayLevel", "[", "0", "]"}]}], "}"}]}]}], "]"}]}], "}"}], 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"RGBColor", "[", 
+      RowBox[{"0.6032`", ",", "0.6032`", ",", "1.`"}], "]"}], ",", 
+     RowBox[{"Sphere", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1.01491`", ",", 
+         RowBox[{"-", "0.0736`"}], ",", "0.`"}], "}"}], ",", "0.3`"}], "]"}], 
+     ",", 
+     RowBox[{"Text", "[", 
+      RowBox[{"\<\"H2\"\>", ",", 
+       RowBox[{"{", 
+        RowBox[{"1.01491`", ",", 
+         RowBox[{"-", "0.0736`"}], ",", "0.`"}], "}"}], ",", 
+       RowBox[{"BaseStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"Bold", ",", 
+          RowBox[{"GrayLevel", "[", "0", "]"}]}], "}"}]}]}], "]"}]}], "}"}], 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"RGBColor", "[", 
+      RowBox[{"0.6032`", ",", "0.6032`", ",", "1.`"}], "]"}], ",", 
+     RowBox[{"Sphere", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "0.0736`"}], ",", "1.01491`", ",", "0.`"}], "}"}], ",", 
+       "0.3`"}], "]"}], ",", 
+     RowBox[{"Text", "[", 
+      RowBox[{"\<\"H3\"\>", ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "0.0736`"}], ",", "1.01491`", ",", "0.`"}], "}"}], ",", 
+       RowBox[{"BaseStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"Bold", ",", 
+          RowBox[{"GrayLevel", "[", "0", "]"}]}], "}"}]}]}], "]"}]}], "}"}]}],
+   "}"}]], "Output",
+ CellChangeTimes->{3.5737458857054157`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BondList", "=", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"0.0586892", ",", "0.0586892", ",", "0.0000000"}], "}"}], 
+         ",", 
+         RowBox[{"{", 
+          RowBox[{"1.0149135", ",", 
+           RowBox[{"-", "0.0736028"}], ",", "0.0000000"}], "}"}]}], "}"}], 
+       ",", "0.1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"0.0586892", ",", "0.0586892", ",", "0.0000000"}], "}"}], 
+         ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"-", "0.0736028"}], ",", "1.0149135", ",", "0.0000000"}], 
+          "}"}]}], "}"}], ",", "0.1"}], "}"}]}], "}"}], "/.", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"a_", ",", "b_", ",", "c_"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"d_", ",", "e_", ",", "f_"}], "}"}]}], "}"}], ",", "r_"}], 
+     "}"}], "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"Cylinder", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"d", ",", "e", ",", "f"}], "}"}]}], "}"}], ",", "r"}], 
+      "]"}], "}"}]}]}]}]], "Input",
+ CellChangeTimes->{{3.5737459062320642`*^9, 3.573745908364132*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Cylinder", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"0.0586892`", ",", "0.0586892`", ",", "0.`"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"1.0149135`", ",", 
+          RowBox[{"-", "0.0736028`"}], ",", "0.`"}], "}"}]}], "}"}], ",", 
+      "0.1`"}], "]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"Cylinder", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"0.0586892`", ",", "0.0586892`", ",", "0.`"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "0.0736028`"}], ",", "1.0149135`", ",", "0.`"}], 
+         "}"}]}], "}"}], ",", "0.1`"}], "]"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.573745909452166*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics3D", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"AtomList", ",", " ", "BondList"}], "}"}], ",", 
+   RowBox[{"Lighting", " ", "\[Rule]", " ", "\"\<Neutral\>\""}], ",", " ", 
+   RowBox[{"Boxed", " ", "\[Rule]", " ", "False"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.5737459115092306`*^9, 3.5737459489604144`*^9}}],
+
+Cell[BoxData[
+ Graphics3DBox[{{
+    {RGBColor[1., 0.20640000000000003`, 0.20640000000000003`], 
+     SphereBox[{0.05869, 0.05869, 0.}, 0.3], 
+     Text3DBox["\<\"O1\"\>", {0.05869, 0.05869, 0.},
+      BaseStyle->{Bold, 
+        GrayLevel[0]}]}, 
+    {RGBColor[0.6032, 0.6032, 1.], SphereBox[{1.01491, -0.0736, 0.}, 0.3], 
+     Text3DBox["\<\"H2\"\>", {1.01491, -0.0736, 0.},
+      BaseStyle->{Bold, 
+        GrayLevel[0]}]}, 
+    {RGBColor[0.6032, 0.6032, 1.], SphereBox[{-0.0736, 1.01491, 0.}, 0.3], 
+     Text3DBox["\<\"H3\"\>", {-0.0736, 1.01491, 0.},
+      BaseStyle->{Bold, 
+        GrayLevel[0]}]}}, {
+    CylinderBox[{{0.0586892, 0.0586892, 0.}, {1.0149135, -0.0736028, 0.}}, 
+     0.1], CylinderBox[{{0.0586892, 0.0586892, 0.}, {-0.0736028, 1.0149135, 
+     0.}}, 0.1]}},
+  Boxed->False,
+  ImageSize->{267., Automatic},
+  Lighting->"Neutral",
+  ViewPoint->{0.12947949968087313`, -0.826466141261971, 3.278748050172495},
+  ViewVertical->{-0.7003771209476639, 0.194663178431017, 
+   1.9325432277091572`}]], "Output",
+ CellChangeTimes->{3.5737459509284763`*^9}]
+}, Open  ]]
+},
+WindowSize->{1904, 945},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"9.0 for Microsoft Windows (64-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 2253, 66, 72, "Input"],
+Cell[2835, 90, 2120, 63, 72, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4992, 158, 1477, 47, 52, "Input"],
+Cell[6472, 207, 830, 25, 31, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7339, 237, 348, 7, 31, "Input"],
+Cell[7690, 246, 1065, 24, 314, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

@@ -1,0 +1,15 @@
+<molecule>
+  <atomArray>
+    <atom id="1" elementType="CARBON" x3="-0.1065020" y3="-0.3853582" z3="0.0004494" />
+    <atom id="2" elementType="OXYGEN" x3="-1.1468335" y3="0.2130093" z3="0.0018897" />
+    <atom id="3" elementType="OXYGEN" x3="1.0927023" y3="0.2442421" z3="0.0013735" />
+    <atom id="4" elementType="HYDROGEN" x3="-0.0316478" y3="-1.4885869" z3="-0.0016095" />
+    <atom id="5" elementType="HYDROGEN" x3="1.8135810" y3="-0.4038064" z3="-0.0001031" />
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="1 2" order="2" />
+    <bond atomRefs2="1 3" order="1" />
+    <bond atomRefs2="1 4" order="1" />
+    <bond atomRefs2="3 5" order="1" />
+  </bondArray>
+</molecule>

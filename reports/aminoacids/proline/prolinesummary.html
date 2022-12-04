@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Proline</title>
+</head>
+
+<body>
+
+    <style>
+        p {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        
+        col {
+            border-right: solid;
+            border-right-color: white;
+        }
+        
+        thead {
+            background-color: #DFFCD9;
+        }
+        
+        caption {
+            background-color: #B8FAAB;
+            border-bottom-style: solid;
+            border-bottom-color: white;
+        }
+        
+        thead>tr>td {
+            padding-right: 10px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            padding-top: 5px;
+            border-bottom-style: solid;
+            border-bottom-color: white;
+            text-align: center;
+            font-size: larger;
+        }
+        
+        tbody>tr>td.rowHeader {
+            padding-right: 10px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            padding-top: 5px;
+            text-align: right;
+            background-color: #C5DCFA;
+        }
+        
+        tbody>tr>td.rowContent {
+            padding-right: 10px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            padding-top: 5px;
+            text-align: right;
+            background-color: #E8F0FA;
+        }
+        
+        tbody>tr>td.rowContentRed {
+            padding-right: 10px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            padding-top: 5px;
+            text-align: right;
+            background-color: #E8F0FA;
+            color: red;
+        }
+        
+        h1 {
+            font-family: Georgia, "Times New Roman", Times, serif;
+            color: #800000;
+            font-size: large;
+        }
+        
+        h2 {
+            font-family: Georgia, "Times New Roman", Times, serif;
+            color: #003300;
+            font-size: medium;
+        }
+        
+        h3 {
+            font-family: Georgia, "Times New Roman", Times, serif;
+            color: #800000;
+            font-size: medium;
+        }
+        
+        #block {
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 30px;
+        }
+    </style>
+    <div style="margin-left:70px">
+        <h1>MOLECULAR REPORT : Proline</h1>
+        <p>
+            The first two tables show atomic properties, the last two table show the properties of the molecular bonds. When the bond
+            orders are negative it means the bond is antibonding.
+        </p>
+    </div>
+    <div style="margin-left:30px">
+        <div id="block">
+            <table>
+                <caption>
+                    <h2>Atom positions ångström</h2>
+                </caption>
+                <colgroup>
+                    <col>
+                    <col span="3">
+                </colgroup>
+                <thead>
+                    <tr style="margin-bottom:30px">
+                        <td>
+                            <div>
+                                <strong>Atom</strong>
+                            </div>
+                        </td>
+                        <td>
+                            <strong>X</strong>
+                        </td>
+                        <td>
+                            <strong>Y</strong>
+                        </td>
+                        <td>
+                            <strong>Z</strong>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="rowHeader"><strong>H1</strong></td>
+                        <td class="rowContent">0.523</td>
+                        <td class="rowContent">-1.706</td>
+                        <td class="rowContent">0.014</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>O2</strong></td>
+                        <td class="rowContent">-1.481</td>
+                        <td class="rowContent">-1.143</td>
+                        <td class="rowContent">-0.826</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>C3</strong></td>
+                        <td class="rowContent">0.725</td>
+                        <td class="rowContent">1.341</td>
+                        <td class="rowContent">-0.023</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>C4</strong></td>
+                        <td class="rowContent">2.202</td>
+                        <td class="rowContent">-0.528</td>
+                        <td class="rowContent">0.206</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>C5</strong></td>
+                        <td class="rowContent">1.918</td>
+                        <td class="rowContent">0.665</td>
+                        <td class="rowContent">-0.721</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>O6</strong></td>
+                        <td class="rowContent">-2.296</td>
+                        <td class="rowContent">0.710</td>
+                        <td class="rowContent">0.162</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>C7</strong></td>
+                        <td class="rowContent">-1.318</td>
+                        <td class="rowContent">-0.194</td>
+                        <td class="rowContent">-0.085</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>C8</strong></td>
+                        <td class="rowContent">-0.036</td>
+                        <td class="rowContent">0.141</td>
+                        <td class="rowContent">0.655</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>H9</strong></td>
+                        <td class="rowContent">-3.074</td>
+                        <td class="rowContent">0.443</td>
+                        <td class="rowContent">-0.357</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>N10</strong></td>
+                        <td class="rowContent">0.883</td>
+                        <td class="rowContent">-1.006</td>
+                        <td class="rowContent">0.659</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>H11</strong></td>
+                        <td class="rowContent">-0.324</td>
+                        <td class="rowContent">0.422</td>
+                        <td class="rowContent">1.675</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>H12</strong></td>
+                        <td class="rowContent">1.074</td>
+                        <td class="rowContent">2.028</td>
+                        <td class="rowContent">0.755</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>H13</strong></td>
+                        <td class="rowContent">0.088</td>
+                        <td class="rowContent">1.914</td>
+                        <td class="rowContent">-0.702</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>H14</strong></td>
+                        <td class="rowContent">2.752</td>
+                        <td class="rowContent">-1.342</td>
+                        <td class="rowContent">-0.275</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>H15</strong></td>
+                        <td class="rowContent">2.792</td>
+                        <td class="rowContent">-0.203</td>
+                        <td class="rowContent">1.075</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>H16</strong></td>
+                        <td class="rowContent">1.627</td>
+                        <td class="rowContent">0.306</td>
+                        <td class="rowContent">-1.716</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>H17</strong></td>
+                        <td class="rowContent">2.771</td>
+                        <td class="rowContent">1.342</td>
+                        <td class="rowContent">-0.841</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="block">
+            <table>
+                <caption>
+                    <h2>Atomic Charges and Fukui Function (Atomic Units)</h2>
+                </caption>
+                <colgroup>
+                    <col span="6">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <td>
+                            <strong>Atom</strong>
+                        </td>
+                        <td>
+                            <strong>Electrostatic</strong>
+                        </td>
+                        <td>
+                            <strong>Mulliken</strong>
+                        </td>
+                        <td>
+                            <strong>Löwdin</strong>
+                        </td>
+                        <td>
+                            <strong>Lewis Acid</strong>
+                        </td>
+                        <td>
+                            <strong>Lewis Base</strong>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="rowHeader"><strong>H1</strong></td>
+                        <td class="rowContent">0.345</td>
+                        <td class="rowContent">0.304</td>
+                        <td class="rowContent">0.187</td>
+                        <td class="rowContent">0.007</td>
+                        <td class="rowContent">0.069</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>O2</strong></td>
+                        <td class="rowContent">-0.525</td>
+                        <td class="rowContent">-0.583</td>
+                        <td class="rowContent">-0.352</td>
+                        <td class="rowContent">0.242</td>
+                        <td class="rowContent">0.034</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>C3</strong></td>
+                        <td class="rowContent">0.005</td>
+                        <td class="rowContent">-0.263</td>
+                        <td class="rowContent">-0.188</td>
+                        <td class="rowContent">0.024</td>
+                        <td class="rowContent">0.027</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>C4</strong></td>
+                        <td class="rowContent">0.294</td>
+                        <td class="rowContent">-0.036</td>
+                        <td class="rowContent">-0.093</td>
+                        <td class="rowContent">0.009</td>
+                        <td class="rowContent">0.002</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>C5</strong></td>
+                        <td class="rowContent">-0.159</td>
+                        <td class="rowContent">-0.235</td>
+                        <td class="rowContent">-0.195</td>
+                        <td class="rowContent">0.008</td>
+                        <td class="rowContent">0.029</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>O6</strong></td>
+                        <td class="rowContent">-0.646</td>
+                        <td class="rowContent">-0.619</td>
+                        <td class="rowContent">-0.295</td>
+                        <td class="rowContent">0.105</td>
+                        <td class="rowContent">0.029</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>C7</strong></td>
+                        <td class="rowContent">0.603</td>
+                        <td class="rowContent">0.760</td>
+                        <td class="rowContent">0.304</td>
+                        <td class="rowContent">0.341</td>
+                        <td class="rowContent">0.002</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>C8</strong></td>
+                        <td class="rowContent">0.357</td>
+                        <td class="rowContent">0.010</td>
+                        <td class="rowContent">-0.026</td>
+                        <td class="rowContent">-0.008</td>
+                        <td class="rowContent">-0.010</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>H9</strong></td>
+                        <td class="rowContent">0.458</td>
+                        <td class="rowContent">0.372</td>
+                        <td class="rowContent">0.257</td>
+                        <td class="rowContent">0.048</td>
+                        <td class="rowContent">0.025</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>N10</strong></td>
+                        <td class="rowContent">-0.818</td>
+                        <td class="rowContent">-0.646</td>
+                        <td class="rowContent">-0.320</td>
+                        <td class="rowContent">0.014</td>
+                        <td class="rowContent">0.487</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>H11</strong></td>
+                        <td class="rowContent">-0.008</td>
+                        <td class="rowContent">0.165</td>
+                        <td class="rowContent">0.113</td>
+                        <td class="rowContent">0.059</td>
+                        <td class="rowContent">0.056</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>H12</strong></td>
+                        <td class="rowContent">0.023</td>
+                        <td class="rowContent">0.136</td>
+                        <td class="rowContent">0.105</td>
+                        <td class="rowContent">0.047</td>
+                        <td class="rowContent">0.030</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>H13</strong></td>
+                        <td class="rowContent">0.003</td>
+                        <td class="rowContent">0.142</td>
+                        <td class="rowContent">0.109</td>
+                        <td class="rowContent">0.013</td>
+                        <td class="rowContent">0.038</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>H14</strong></td>
+                        <td class="rowContent">-0.008</td>
+                        <td class="rowContent">0.125</td>
+                        <td class="rowContent">0.102</td>
+                        <td class="rowContent">0.027</td>
+                        <td class="rowContent">0.046</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>H15</strong></td>
+                        <td class="rowContent">0.004</td>
+                        <td class="rowContent">0.119</td>
+                        <td class="rowContent">0.092</td>
+                        <td class="rowContent">0.024</td>
+                        <td class="rowContent">0.060</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>H16</strong></td>
+                        <td class="rowContent">0.053</td>
+                        <td class="rowContent">0.126</td>
+                        <td class="rowContent">0.097</td>
+                        <td class="rowContent">0.008</td>
+                        <td class="rowContent">0.029</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>H17</strong></td>
+                        <td class="rowContent">0.020</td>
+                        <td class="rowContent">0.123</td>
+                        <td class="rowContent">0.102</td>
+                        <td class="rowContent">0.033</td>
+                        <td class="rowContent">0.048</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div style="clear:both"></div>
+        <div id="block">
+            <table>
+                <caption>
+                    <h2>Molecular Bonds</h2>
+                </caption>
+                <colgroup>
+                    <col span="4">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <td><strong>Bond</strong></td>
+                        <td><strong>Distance</strong></td>
+                        <td><strong>Bond Order</strong></td>
+                        <td><strong>Mulliken Overlap</strong></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="rowHeader">
+                            <strong>C3-C5</strong>
+                        </td>
+                        <td class="rowContent">
+                            1.538
+                        </td>
+                        <td class="rowContent">
+                            0.955
+                        </td>
+                        <td class="rowContent">
+                            0.328
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader">
+                            <strong>C4-C5</strong>
+                        </td>
+                        <td class="rowContent">
+                            1.538
+                        </td>
+                        <td class="rowContent">
+                            0.950
+                        </td>
+                        <td class="rowContent">
+                            0.345
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader">
+                            <strong>O2-O6</strong>
+                        </td>
+                        <td class="rowContent">
+                            2.253
+                        </td>
+                        <td class="rowContent">
+                            0.063
+                        </td>
+                        <td class="rowContent">
+                            -0.082
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader">
+                            <strong>O2-C7</strong>
+                        </td>
+                        <td class="rowContent">
+                            1.215
+                        </td>
+                        <td class="rowContent">
+                            1.811
+                        </td>
+                        <td class="rowContent">
+                            0.581
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader">
+                            <strong>C3-C8</strong>
+                        </td>
+                        <td class="rowContent">
+                            1.574
+                        </td>
+                        <td class="rowContent">
+                            0.938
+                        </td>
+                        <td class="rowContent">
+                            0.320
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader">
+                            <strong>H1-N10</strong>
+                        </td>
+                        <td class="rowContent">
+                            1.018
+                        </td>
+                        <td class="rowContent">
+                            0.880
+                        </td>
+                        <td class="rowContent">
+                            0.368
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader">
+                            <strong>C4-N10</strong>
+                        </td>
+                        <td class="rowContent">
+                            1.475
+                        </td>
+                        <td class="rowContent">
+                            0.927
+                        </td>
+                        <td class="rowContent">
+                            0.280
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader">
+                            <strong>C3-H12</strong>
+                        </td>
+                        <td class="rowContent">
+                            1.095
+                        </td>
+                        <td class="rowContent">
+                            0.973
+                        </td>
+                        <td class="rowContent">
+                            0.411
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader">
+                            <strong>C3-H13</strong>
+                        </td>
+                        <td class="rowContent">
+                            1.094
+                        </td>
+                        <td class="rowContent">
+                            0.969
+                        </td>
+                        <td class="rowContent">
+                            0.402
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader">
+                            <strong>C4-H14</strong>
+                        </td>
+                        <td class="rowContent">
+                            1.094
+                        </td>
+                        <td class="rowContent">
+                            0.979
+                        </td>
+                        <td class="rowContent">
+                            0.415
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader">
+                            <strong>C4-H15</strong>
+                        </td>
+                        <td class="rowContent">
+                            1.099
+                        </td>
+                        <td class="rowContent">
+                            0.970
+                        </td>
+                        <td class="rowContent">
+                            0.413
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader">
+                            <strong>C5-H16</strong>
+                        </td>
+                        <td class="rowContent">
+                            1.097
+                        </td>
+                        <td class="rowContent">
+                            0.973
+                        </td>
+                        <td class="rowContent">
+                            0.407
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader">
+                            <strong>C5-H17</strong>
+                        </td>
+                        <td class="rowContent">
+                            1.095
+                        </td>
+                        <td class="rowContent">
+                            0.974
+                        </td>
+                        <td class="rowContent">
+                            0.400
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader">
+                            <strong>O6-C7</strong>
+                        </td>
+                        <td class="rowContent">
+                            1.355
+                        </td>
+                        <td class="rowContent">
+                            0.983
+                        </td>
+                        <td class="rowContent">
+                            0.268
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader">
+                            <strong>C7-C8</strong>
+                        </td>
+                        <td class="rowContent">
+                            1.518
+                        </td>
+                        <td class="rowContent">
+                            0.938
+                        </td>
+                        <td class="rowContent">
+                            0.346
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader">
+                            <strong>O6-H9</strong>
+                        </td>
+                        <td class="rowContent">
+                            0.973
+                        </td>
+                        <td class="rowContent">
+                            0.839
+                        </td>
+                        <td class="rowContent">
+                            0.298
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader">
+                            <strong>C8-N10</strong>
+                        </td>
+                        <td class="rowContent">
+                            1.470
+                        </td>
+                        <td class="rowContent">
+                            0.947
+                        </td>
+                        <td class="rowContent">
+                            0.283
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader">
+                            <strong>C8-H11</strong>
+                        </td>
+                        <td class="rowContent">
+                            1.097
+                        </td>
+                        <td class="rowContent">
+                            0.958
+                        </td>
+                        <td class="rowContent">
+                            0.419
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="block">
+            <table>
+                <caption>
+                    <h2>Molecular Properties</h2>
+                </caption>
+                <colgroup>
+                    <col>
+                </colgroup>
+                <thead>
+                    <tr>
+                        <td>
+                            <strong>Property</strong>
+                        </td>
+                        <td>
+                            <strong>Value (Atomic Units)</strong>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="rowHeader"><strong>DFTEnergy</strong></td>
+                        <td class="rowContent">-400.9405322682</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>Charge</strong></td>
+                        <td class="rowContent">0</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>Multiplicity</strong></td>
+                        <td class="rowContent">1</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>NAlphaOrbitals</strong></td>
+                        <td class="rowContent">31</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>NBetaOrbitals</strong></td>
+                        <td class="rowContent">31</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader"><strong>HFEnergy</strong></td>
+                        <td class="rowContent">-398.7817657618</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader" title="Electron Affinitiy"><strong>ElectronAffinity</strong></td>
+                        <td class="rowContent">-0,0812376230</td>
+                    </tr>
+                    <tr>
+                        <td class="rowHeader" title="Hardness"><strong>Hardness</strong></td>
+                        <td class="rowContent">-0,1989246753</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
