@@ -1,13 +1,23 @@
+/* legacy class */
 h1.std {
     color: olive;
 }
 
+/* legacy class */
 h2.std {
     color: #800000;
 }
 
-/* Styles for general use */
+h1.olive , h2.olive, h3.olive, h4.olive, h5.olive {
+    color: olive;
+}
 
+h1.red, h2.red, h3.red, h4.red, h5.red {
+    color: #800000;
+}
+
+
+/* Styles for general use */
 img.intext {
     float: right;
 }

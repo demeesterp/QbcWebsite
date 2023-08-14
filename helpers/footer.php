@@ -1,4 +1,4 @@
 <?php function makefooter() {
-    echo "<hr/>";
+    echo "<hr/> <p class='text-end'><small>Copyright&copy; Microcanonix BV</small></p>";
 }
 ?>
