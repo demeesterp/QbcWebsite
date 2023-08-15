@@ -181,7 +181,7 @@
                 <img alt="Molecular Hamiltonian" src="../images/molecularhamiltonian.gif" />
               </div>
               <ol>
-                <li>Z<strong class="SubScript">A</strong> is the nuclear charge of the Ath atom</li>
+                <li>Z<strong class="subscript">A</strong> is the nuclear charge of the Ath atom</li>
                 <li>
                   <img alt="Laplacian" src="../images/laplacianelectrons.gif" /> is the
                   <a href="http://en.wikipedia.org/wiki/Laplace_operator" target="_blank">Laplacian</a> for the ith electron
@@ -190,13 +190,13 @@
                   <img alt="Laplacian" src="../images/laplaciannuclei.gif" />is the Laplacian for the nuclei
                 </li>
                 <li>
-                  R<strong class="SubScript">AB</strong> is the distance between the nuclei
+                  R<strong class="subscript">AB</strong> is the distance between the nuclei
                 </li>
                 <li>
-                  r<strong class="SubScript">ij</strong> is the distance between the electrons
+                  r<strong class="subscript">ij</strong> is the distance between the electrons
                 </li>
                 <li>
-                  r<strong class="SubScript">iA</strong> the distance between an electron and a nucleus
+                  r<strong class="subscript">iA</strong> the distance between an electron and a nucleus
                 </li>
               </ol>
             </p>
@@ -231,10 +231,10 @@
             </p>
             <p>
               The electronic energy
-              <strong>E<span class="SubScript">0</span></strong> is the expectation value of the electronic
+              <strong>E<span class="subscript">0</span></strong> is the expectation value of the electronic
               Hamiltonian.
               The wave-function then becomes a variable on which the energy depends. Mathematicians say the
-              wave-function is a functional of the energy <strong>E<span class="SubScript">0</span></strong>.
+              wave-function is a functional of the energy <strong>E<span class="subscript">0</span></strong>.
             </p>
             <p>
               There is a procedure to obtain a wave-function that corresponds to the minimum of the energy.
@@ -284,8 +284,8 @@
                 for the electronic molecular Schrödinger equation. This procedure results in a set of
                 integro
                 differential
-                equations for the spin orbitals where the orbital energy &epsilon;<span class="SubScript">a</span>
-                with spin orbital &psi;<span class="SubScript">a</span>(i) becomes:
+                equations for the spin orbitals where the orbital energy &epsilon;<span class="subscript">a</span>
+                with spin orbital &psi;<span class="subscript">a</span>(i) becomes:
               </div>
               <div>
                 <!--<img alt="Intro" src="../../images/electronicstructuretheory1.png" height="814" width="570" />-->
@@ -300,8 +300,8 @@
                   <li class="item">A to K nuclei</li>
                   <li class="item">1,...,i,j,...,n electrons</li>
                   <li class="item">a,b,...,k spin orbitals</li>
-                  <li class="item">r<span class="SubScript">ij</span> is the distance between two electrons</li>
-                  <li class="item">r<span class="SubScript">iA</span> is the distance between the ith electron and the Ath nucleus</li>
+                  <li class="item">r<span class="subscript">ij</span> is the distance between two electrons</li>
+                  <li class="item">r<span class="subscript">iA</span> is the distance between the ith electron and the Ath nucleus</li>
                   <li class="item"><img class="img-responsive" alt="Laplacian" src="../images/laplacianelectrons.gif" /> is the laplacian for the ith electron</li>
                 </ol>
               </div>
@@ -314,7 +314,7 @@
               </p>
               <img alt="Slater determinant" src="../images/slater.gif" />
               <p>
-                  This is a Slater determinant for N electrons represented by i → k functions. &psi;<span class="SubScript">i</span>(i)
+                  This is a Slater determinant for N electrons represented by i → k functions. &psi;<span class="subscript">i</span>(i)
                   is a one electron spin orbital. This one electron spin orbital is the product of two
                   functions,
                   a function
@@ -336,20 +336,20 @@
               <p>
                 The variation principle states that the energy is a functional of the ground-state wave
                 function. We can use the slater determinant
-                as a trail function. The slater determinant is substituted for &Psi;<span class="SubScript">0</span>in
+                as a trail function. The slater determinant is substituted for &Psi;<span class="subscript">0</span>in
                 equation
               </p>
               <img alt="Variation Principle" src="../images/variationprinciple.gif" />
               <p>
-                Every function &psi;<span class="SubScript">a</span>(i) can be represented as a linear
+                Every function &psi;<span class="subscript">a</span>(i) can be represented as a linear
                 combination of known
-                basis functions &theta;<span class="SubScript">&micro;</span>
+                basis functions &theta;<span class="subscript">&micro;</span>
               </p>
               <img alt="tt" src="../images/orbitalexpansion.gif" />
               <p>
-                We then change the value of the expansion coefficients C<span class="SubScript">&micro;i</span>
+                We then change the value of the expansion coefficients C<span class="subscript">&micro;i</span>
                 until we
-                find a minimum value for E<span class="SubScript">0</span>. The resulting slater
+                find a minimum value for E<span class="subscript">0</span>. The resulting slater
                 determinant is
                 the best
                 possible approximation to the electronic wave-function.
@@ -358,7 +358,7 @@
                 We impose a set of constraints on the possible solutions by using a Slater determinant as a trail function. These constraints correspond to the following assumptions:
               </p>
               <ol>
-                <li> Every electron moves in its own orbit, &psi;<span class="SubScript">a</span>(i) is a one electron wave-function.</li>
+                <li> Every electron moves in its own orbit, &psi;<span class="subscript">a</span>(i) is a one electron wave-function.</li>
                 <li>The one electron orbitals must to be orthogonal.</li>
                 <li>The molecular wave function vanishes when the positions (x,y,z) move to infinity.</li>
                 <li>
@@ -449,13 +449,13 @@
                     If the basis is complete (K → &infin;) the one electron orbital will be exact.
                   </p>
                   <p>
-                    The coefficients C<span class="SubScript">&micro;i</span> are numerical parameters
+                    The coefficients C<span class="subscript">&micro;i</span> are numerical parameters
                     to
                     be found iteratively
                     with the SCF procedure.
                   </p>
                   <p>
-                    The functions &theta;<span class="SubScript">&micro;</span> are atomic orbitals.
+                    The functions &theta;<span class="subscript">&micro;</span> are atomic orbitals.
                   </p>
                   <p>
                     These functions are centered on the position of an atomic nucleus part of the
@@ -573,7 +573,7 @@
           </div>
           <div class="bg-body-tertiary rounded p-2 mb-1">
             <p>
-              <strong>Theorem one</strong> states that the external potential V<span class="SubScript">ext</span>(r)
+              <strong>Theorem one</strong> states that the external potential V<span class="subscript">ext</span>(r)
               and the total energy is a unique functional of the electron density &rho;(r) r is the spacial
               position vector.
               The energy functional is :
@@ -601,14 +601,14 @@
             <p>The Kohn-Sham equations are</p>
             <img class="equation" alt="Kohn-Sham equations" src="../images/Kohn-Sham.gif" />
             <p>
-              V<span class="SubScript">eff</span>(r) is the effective potential and &Phi;(i) are the
+              V<span class="subscript">eff</span>(r) is the effective potential and &Phi;(i) are the
               Kohn-Sham oprbitals.
               The electron density can be calculated from the Kohn-Sham orbitals.
             </p>
             <img class="equation" alt="Kohn-Sham electron density" src="../images/KohnShamElectronDensity.gif" />
             <p>The effective potential is </p>
             <img class="equation" alt="Kohn-Sham effective potential" src="../images/Kohn-Sham%20effective%20potential.gif" />
-            <p>The first term V<span class="SubScript">ext</span>(r) is the external potential due to the atomic nuclei.</p>
+            <p>The first term V<span class="subscript">ext</span>(r) is the external potential due to the atomic nuclei.</p>
             <p>The second term is the potential an electron experiences from the other electrons.</p>
             <img class="equation" alt="Kohn-Sham electron potential" src="../images/KohnShamCoulombPotential.gif" />
             <p>The third term is the exchange correlation potential.</p>

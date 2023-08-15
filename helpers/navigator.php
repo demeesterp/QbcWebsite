@@ -67,13 +67,13 @@ function make_structure_theory_nav($pageNbr) {
                 "<li class='page-item $start_invisible'>".
                     "<a class='page-link'".
                         "href='./moleculestructuretheory.php?pagenbr=$previous_page_nbr'>".
-                        "<i class='bi bi-caret-left-square'></i>  $previous".         
+                        "<p><i class='bi bi-caret-left-square'></i>  $previous</p>".         
                     "</a>".
                 "</li>".
                 "<li class='page-item $end_invisible'>".
                     "<a class='page-link'".
                         "href = './moleculestructuretheory.php?pagenbr=$next_page_nbr'>".
-                        "$next <i class='bi bi-caret-right-square'></i>".
+                        "<p>$next <i class='bi bi-caret-right-square'></i></p>".
                     "</a>".
                 "</li>".
             "</ul>".

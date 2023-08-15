@@ -1,12 +1,3 @@
-/* legacy class */
-h1.std {
-    color: olive;
-}
-
-/* legacy class */
-h2.std {
-    color: #800000;
-}
 
 h1.olive , h2.olive, h3.olive, h4.olive, h5.olive {
     color: olive;
@@ -26,22 +17,9 @@ img.intext {
     margin: 20px;
 }
 
-.SubScript{
+.subscript{
 	vertical-align: sub;
 	font-size: small;
-}
-
-strong.red {
-    color:red;
-}
-
-strong.blue {
-    color:blue;
-}
-
-.line 
-{ 
-    margin-top: 50px; 
 }
 
 @media screen and (max-width:900px) {  

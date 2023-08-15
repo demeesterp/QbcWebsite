@@ -1,9 +1,0 @@
-<molecule>
-  <atomArray>
-    <atom id="1" elementType="FLUORINE" x3="-4.3467237" y3="2.6088700" z3="0.0000000" />
-    <atom id="2" elementType="HYDROGEN" x3="-3.4186763" y3="2.6088700" z3="0.0000000" />
-  </atomArray>
-  <bondArray>
-    <bond atomRefs2="1 2" order="1" />
-  </bondArray>
-</molecule>
