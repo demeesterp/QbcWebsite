@@ -78,7 +78,7 @@ include './helpers/footer.php';
                         their existence.
                     </p>
                     <p class="card-text">
-                        <strong>Examples </strong> Enzymes and nucleïc acids are used by all living species. Cellulose, starch and chlorophyl
+                        <strong>Examples </strong> Enzymes and nucleic acids are used by all living species. Cellulose, starch and chlorophyl
                         are molecular component used by all plants.
                     </p>
                     <p class="card-text">

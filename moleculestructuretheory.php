@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <?php
   include './helpers/head.php';
   include './helpers/header.php';
@@ -47,9 +48,22 @@
               <strong>For a more complete explanation:</strong>
             </p>
             <p>
-                Professor Jack Simons has posted several interesting lectures about
-                <a href="https://www.youtube.com/watch?v=Z5cq7JpsG8I&list=PLEq9ArCsv6EAwaZFY-7oyZCyce8VnxodZ" target="_blank">electronic structure theory</a>.
-                There are many books on quantum chemistry. I am sure anyone can find a book that suites on the internet.
+              <ul>
+                <li>
+                  <strong>Professor Jack Simons</strong> has posted several interesting lectures about
+                  <a href="https://www.youtube.com/watch?v=Z5cq7JpsG8I&list=PLEq9ArCsv6EAwaZFY-7oyZCyce8VnxodZ" target="_blank">electronic structure theory</a>.
+                </li>
+                <li>
+                  <strong>Some examples of books on quantum chemistry :</strong>
+                  <ul>
+                    <li>Quantum Chemistry by Donald A. McQuarrie</li>
+                    <li>Modern Quantum Chemistry by Attila Szabo and Neil S. Ostlund</li>
+                    <li>Introduction to Computational Chemistry by Frank Jensen</li>
+                    <li>Molecular Quantum Mechanics: An Introduction to Quantum Chemistry by Peter Atkins and Ronald Friedman</li>
+                    <li>Ideas of Quantum Chemistry by Lucjan Piela</li>
+                  </ul>
+                </li>
+              </ul>
             </p>
           </div>
         </div>
@@ -62,11 +76,9 @@
           </h4>
           <div class="bg-body-tertiary rounded p-2 mb-1">
             <p>
-              The mass of nuclei is much higher than the mass of the electrons. As a result the motion of the
-              electrons changes immediately
-              when the nuclei change position but the nuclei will not adapt their position as fast when the
-              electrons change their position. Consequently we assume the electronic wave-function only depends on the
-              fixed positions of the nucleï.
+              The mass of nuclei is much higher than the mass of the electrons. As a result the motion of the electrons changes immediately
+              when the nuclei change position but the nuclei will not adapt their position as fast when the electrons change their position. 
+              Consequently we assume the electronic wave-function only depends on the fixed positions of the nuclei.
             </p>
             <p>
               We can thus split the molecular Hamilonian in an electronic part and a nuclear part:
@@ -81,7 +93,7 @@
               <strong>The nuclear part is :</strong>
             </p>
             <p>
-              It is the contribution of the electrostatic foreces between the nucleï.
+              It is the contribution of the electrostatic foreces between the nuclei.
               <div class="equation">
                 <img class="img-responsive" alt="Nuclear repulsion term" src="../images/nuclearrepulsion.gif" />
               </div>
@@ -175,7 +187,7 @@
                   <a href="http://en.wikipedia.org/wiki/Laplace_operator" target="_blank">Laplacian</a> for the ith electron
                 </li>
                 <li>
-                  <img alt="Laplacian" src="../images/laplaciannuclei.gif" />is the Laplacian for the nucleï
+                  <img alt="Laplacian" src="../images/laplaciannuclei.gif" />is the Laplacian for the nuclei
                 </li>
                 <li>
                   R<strong class="SubScript">AB</strong> is the distance between the nuclei
@@ -243,9 +255,9 @@
             <p>
               The
               <a href="http://en.wikipedia.org/wiki/Perturbation_theory_(quantum_mechanics)" target="_blank"> Rayleigh-Schrödinger perturbation theory</a>
-              &nbsp; and
+              and
               <a href="http://en.wikipedia.org/wiki/Configuration_interaction" target="_blank"> configuration interaction</a>
-              &nbsp; allow us to further improve the Hartree-Fock approximation.
+              allow us to further improve the Hartree-Fock approximation.
             </p>
           </div>
         </div>

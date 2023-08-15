@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <?php
 include './helpers/head.php';
 include './helpers/header.php';
@@ -7,6 +8,8 @@ include './helpers/footer.php';
 
 <head>
     <?php makehead(); ?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/2.0.1/3Dmol-min.js"></script>
+    <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>  
     <title>Chemical Reactivity</title>
 </head>
 <body>
@@ -29,7 +32,7 @@ include './helpers/footer.php';
     <section class="row mb-3">
         <div class="col">
             <h4 class="olive mb-2">What is a chemical reaction ?</h4>
-            <div class="bg-body-tertiary rounded p-2">
+            <div class="bg-body-tertiary rounded p-2 mb-2">
                 <p>A chemical reaction is a clearly observable change in a substance that is typical for that substance.</p>
                 <p>
                     When a substance undergoes a chemical reaction then there will be a rearrangement of the nuclei and the electrons.
@@ -38,7 +41,7 @@ include './helpers/footer.php';
                 </p>
             </div>
             <h4 class="olive mb-2">The role of lewis acid and base reactions in biochemistry and molecular biology:</h4>
-            <div class="bg-body-tertiary rounded p-2">
+            <div class="bg-body-tertiary rounded p-2 mb-2">
                 <p>
                     A Lewis acid is a molecule that can accept an electron pair from another molecule the Lewis base.
                     Most chemical reactions in biology are Lewis acid-base reactions. Biologists, biochemists, bioengineers need to understand the reactions
@@ -58,7 +61,7 @@ include './helpers/footer.php';
                 <p>The Lewis acid-base theory will enable us to understand the way macromolecules, water and ions interact.</p>
             </div>
             <h4 class="olive mb-2">Quantum chemical principles on Lewis acid-base reactions :</h4>
-            <div class="bg-body-tertiary rounded p-2">
+            <div class="bg-body-tertiary rounded p-2 mb-2">
                 <p>Quantum chemistry allows us to make a comprehensive theoretical analysis on the mechanisms that govern a Lewis acid-base reaction.</p>
                 <p> The rate at which the reaction occurs and the nature of the products depends on the <a href="https://en.wikipedia.org/wiki/Reaction_mechanism" target="blank"> reaction mechanism</a>.</p>
                 <p>
@@ -116,7 +119,7 @@ include './helpers/footer.php';
                 </p>
             </div>
             <h4 class="olive mb-2">The calculation of the molecular electrostatic potential :</h4>
-            <div class="bg-body-tertiary rounded p-2">
+            <div class="bg-body-tertiary rounded p-2 mb-2">
                 <p>
                     The molecular electrostatic potential ( M.E.P.) is the coulombic interaction energy between a positive charge represented
                     by an empty 1s orbital and 'rigid' molecule. The molecule is rigid because its properties do not change because
@@ -150,7 +153,7 @@ include './helpers/footer.php';
                 </p>
             </div>
             <h4 class="olive mb-2">Fitting atomic charges to the molecular electrostatic potential :</h4>
-            <div class="bg-body-tertiary rounded p-2">
+            <div class="bg-body-tertiary rounded p-2 mb-2">
                 <p>
                     It is possible to attribute partial charges to the atoms of a molecule that fit its M.E.P. . The M.E.P. is then evaluated
                     at several points on fused van der Waals spheres. The charges are chosen so that they depict as good as possible
@@ -198,8 +201,15 @@ include './helpers/footer.php';
                                 </tbody>
                              </table>
                         </div>
-                        <div class="w-50">
-                            <div id="AcetateDiv" class="divintext">Test</div>
+                        <div class="w-50 ms-3">
+                            <div style="height: 400px; width: 500px; position: relative;" 
+                                    class='viewer_3Dmoljs' 
+                                    data-href="./molecules/acetate_structure.xyz"
+                                    data-type="xyz"
+                                    data-backgroundcolor='black' 
+                                    data-style='stick' 
+                                    data-ui='true'>
+                            </div>
                         </div>
                     </div>
                 </p>
@@ -216,7 +226,7 @@ include './helpers/footer.php';
                 </p>
             </div>
             <h4 class="olive mb-2">Frontier controlled reactions :</h4>
-            <div class="bg-body-tertiary rounded p-2">
+            <div class="bg-body-tertiary rounded p-2 mb-2">
                 <p>
                     R.S. Mulliken developed a systematic procedure to obtain maximum insight onto the LCAO MO wave function for a molecule. This
                     procedure can also be use to obtain insight into the HOMO and LUMO obtained from the LCAO MO wave functions.
@@ -229,7 +239,7 @@ include './helpers/footer.php';
                 </ul>
             </div>
             <h4 class="olive mb-2">Interpretation of the reactivity indices in chemistry and biochemistry :</h4>
-            <div class="bg-body-tertiary rounded p-2">
+            <div class="bg-body-tertiary rounded p-2 mb-2">
                 <p>
                     The highest occupied molecular orbital of a molecule has the highest electron density located on the atom or atoms that act
                     as electron donors (Lewis bases). The lowest unoccupied molecular orbital has its highest density located
@@ -257,7 +267,7 @@ include './helpers/footer.php';
     <footer class="row">
       <div class="col">
         <p><strong>References :</strong></p>
-        <div class="bg-body-tertiary rounded p-2">
+        <div class="bg-body-tertiary rounded p-2 mb-2">
             <ul>
                 <li>Chemical Reactivity and Reaction Paths, Edited by Gilles Klopman, John Wiley &amp; Sons, 1974 </li>
                 <li>Electronic Population Analysis on LCOA-MO Molecular Wave Functions. I R.S. Mulliken Laboratory of Molecular Structure and
@@ -277,6 +287,8 @@ include './helpers/footer.php';
                 <li>K.M.Merz, J.Comput.Chem. 13, 749(1992)</li>
                 <li>M.A.Spackman, J.Comput.Chem. 17, 1-18(1996)</li>
                 <li>W. Yang, W.J. Mortier, J. Am. Chem. Soc. 108(1986) 5708-5711.</li>
+                <li>Nicholas Rego and David Koes 3Dmol.js: molecular visualization with WebGL
+                    Bioinformatics (2015) 31 (8): 1322-1324 doi:10.1093/bioinformatics/btu829</li>
             </ul>
         </div>
       </div>
