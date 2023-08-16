@@ -7,6 +7,8 @@
 ?>
 <head>
     <?php makehead(); ?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/2.0.1/3Dmol-min.js"></script>
+    <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>  
     <title>Quantum Biochemistry</title>
 </head>
 <body>
@@ -59,7 +61,7 @@
         </div>
     </section>
     <section class="row">
-        <div class="col">
+        <div class="col-9">
             <h4 class="olive mb-4">In a nutshell :</h4>
             <h5 class="red">Molecular Structure Theory</h5>
             <div class="bg-body-tertiary rounded p-2 mb-2">
@@ -141,6 +143,19 @@
                     I listen to any comments, remarks suggestions. I will try to answer any questions as good as I can.
                 </p>
             </div>
+        </div>
+        <div class="col-3 align-self-center">
+            <figure class="figure">
+                <div style="height: 400px; width: 400px; position: relative;" 
+                    class='viewer_3Dmoljs' 
+                    data-href="./molecules/curcumine.xyz"
+                    data-type="xyz"
+                    data-backgroundcolor='0xffffff' 
+                    data-style='stick' 
+                    data-ui='false'>
+                </div>   
+                <figcaption>Curcumine</figcaption>
+            </figure>          
         </div>
     </section>
     <?php makefooter() ?>
