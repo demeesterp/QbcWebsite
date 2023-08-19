@@ -105,7 +105,7 @@ include './helpers/footer.php';
                 </div>
                 <div class="bg-body-tertiary rounded p-2 mb-2">
                     <p>
-                        <a class="icon-link icon-link-hover" href="./moleculestructuretheory.php?pagenbr=1">
+                        <a class="icon-link icon-link-hover link-success" href="./moleculestructuretheory.php?pagenbr=1">
                             Learn more about molecular structure theory
                             <i class="bi bi-link"></i>
                         </a>
@@ -131,7 +131,7 @@ include './helpers/footer.php';
                 </div>
                 <div class="bg-body-tertiary rounded p-2 mb-2">
                     <p>
-                        <a class="icon-link icon-link-hover" href="./chemicalreactivity.php">
+                        <a class="icon-link icon-link-hover link-success" href="./chemicalreactivity.php">
                             Learn more lewis acids and bases
                             <i class="bi bi-link"></i>
                         </a>
@@ -147,7 +147,7 @@ include './helpers/footer.php';
                 </div>
                 <div class="bg-body-tertiary rounded p-2 mb-2">
                     <p>
-                        <a class="icon-link icon-link-hover" href="./chemicalsoftware.php">
+                        <a class="icon-link icon-link-hover link-success" href="./chemicalsoftware.php">
                             Learn more about chemical software used for this reasearch
                             <i class="bi bi-link"></i>
                         </a>
@@ -157,7 +157,7 @@ include './helpers/footer.php';
                 <div class="bg-body-tertiary rounded p-2">
                     <p>
                         <span class="fw-semibold">Contact Information</span>:
-                        please feel free to contact me at <a href="mailto:info@quantumbiochemistry.org">info@quantumbiochemistry.org</a>.
+                        please feel free to contact me at <a class="link-success" href="mailto:info@quantumbiochemistry.org">info@quantumbiochemistry.org</a>.
                     </p>
                     <p>
                         I listen to any comments, remarks suggestions. I will try to answer any questions as good as I can.

@@ -71,7 +71,8 @@ include './helpers/footer.php';
             <h4 class="olive mb-2">Quantum chemical principles on Lewis acid-base reactions :</h4>
             <div class="bg-body-tertiary rounded p-2 mb-2">
                 <p>Quantum chemistry allows us to make a comprehensive theoretical analysis on the mechanisms that govern a Lewis acid-base reaction.</p>
-                <p> The rate at which the reaction occurs and the nature of the products depends on the <a href="https://en.wikipedia.org/wiki/Reaction_mechanism" target="blank"> reaction mechanism</a>.</p>
+                <p> The rate at which the reaction occurs and the nature of the products depends on the 
+                    <a class="link-success" href="https://en.wikipedia.org/wiki/Reaction_mechanism" target="blank"> reaction mechanism</a>.</p>
                 <p>
                     There are essentially two ways a Lewis acid reacts with a Lewis base, the reaction can be <strong>charge controlled</strong>
                     or it can be <strong>frontier controlled</strong>.
@@ -96,7 +97,7 @@ include './helpers/footer.php';
                     The shape of the LUMO and the HOMO determine the possibilities for overlap and thus determines the initial course of the reaction.
                 </p>
                 <p>
-                    <a href="https://en.wikipedia.org/wiki/Kenichi_Fukui" target="blank"> Kenichi Fukui</a>
+                    <a class="link-success" href="https://en.wikipedia.org/wiki/Kenichi_Fukui" target="blank"> Kenichi Fukui</a>
                     originally proposed the frontier molecular orbital theory.
                     See G. Klopman, Chemical Reactivity and Reactions Paths , p23-50 Wiley, New York, 1974. Fukui modeled a charge transfer by considering 3 situations.
                 </p>
@@ -111,12 +112,12 @@ include './helpers/footer.php';
                     the principle of charge controlled and frontier controlled reactions.
                 </p>
                 <p>
-                    Independently <a href="https://en.wikipedia.org/wiki/Gilles_Klopman" target="blank">Gilles Klopman</a> proposed the generalised perturbation theory of chemical reactivity. This theory explains the
+                    Independently <a class="link-success" href="https://en.wikipedia.org/wiki/Gilles_Klopman" target="blank">Gilles Klopman</a> proposed the generalised perturbation theory of chemical reactivity. This theory explains the
                     principles about Lewis acid-base reactions outlined here.
                     A comprehensive text on this subject can be found in G. Klopman, Chemical Reactivity and Reactions Paths , p55 Wiley, New York, 1974.
                 </p>
                 <p>
-                    <a href="https://en.wikipedia.org/wiki/Ralph_Pearson" target="blank">Raplh G. Pearson</a> first explained the Hard and Soft Acis and Bases Principle. See Ralph G. Pearson "Hard and Soft Acids and
+                    <a class="link-success" href="https://en.wikipedia.org/wiki/Ralph_Pearson" target="blank">Raplh G. Pearson</a> first explained the Hard and Soft Acis and Bases Principle. See Ralph G. Pearson "Hard and Soft Acids and
                     Bases" Journal of the american chemical society Vol 85, 22 November 20, 1963.
                 </p>
                 <p>

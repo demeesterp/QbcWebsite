@@ -59,7 +59,7 @@ include './helpers/navigator.php';
             <ul>
               <li>
                 <strong>Professor Jack Simons</strong> has posted several interesting lectures about
-                <a href="https://www.youtube.com/watch?v=Z5cq7JpsG8I&list=PLEq9ArCsv6EAwaZFY-7oyZCyce8VnxodZ" target="_blank">electronic structure theory</a>.
+                <a class="link-success" href="https://www.youtube.com/watch?v=Z5cq7JpsG8I&list=PLEq9ArCsv6EAwaZFY-7oyZCyce8VnxodZ" target="_blank">electronic structure theory</a>.
               </li>
               <li>
                 <strong>Some examples of books on quantum chemistry :</strong>
@@ -136,7 +136,7 @@ include './helpers/navigator.php';
           <h4 class="olive mb-4">The time independent energy and wave-function for a molecule</h4>
           <div class="bg-body-tertiary rounded p-2 mb-1">
             <p>
-              In <a href="http://en.wikipedia.org/wiki/Classical_mechanics" target="_blank">classical mechanics</a>
+              In <a class="link-success" href="http://en.wikipedia.org/wiki/Classical_mechanics" target="_blank">classical mechanics</a>
               we describe a model as:
             <ol>
               <li>
@@ -151,7 +151,7 @@ include './helpers/navigator.php';
           </div>
           <div class="bg-body-tertiary rounded p-2 mb-1">
             <p>
-              In <a href="http://en.wikipedia.org/wiki/Quantum_mechanics" target="_blank">quantum mechanics</a>
+              In <a class="link-success" href="http://en.wikipedia.org/wiki/Quantum_mechanics" target="_blank">quantum mechanics</a>
               the wave-function is the logical analogue for the trajectory.
             </p>
             <p>
@@ -192,7 +192,7 @@ include './helpers/navigator.php';
               <li>Z<strong class="subscript">A</strong> is the nuclear charge of the Ath atom</li>
               <li>
                 <img alt="Laplacian" src="../images/laplacianelectrons.gif" /> is the
-                <a href="http://en.wikipedia.org/wiki/Laplace_operator" target="_blank">Laplacian</a> for the ith electron
+                <a class="link-success" href="http://en.wikipedia.org/wiki/Laplace_operator" target="_blank">Laplacian</a> for the ith electron
               </li>
               <li>
                 <img alt="Laplacian" src="../images/laplaciannuclei.gif" />is the Laplacian for the nuclei
@@ -228,7 +228,7 @@ include './helpers/navigator.php';
               Even with only the electronic Hamiltonian it is still not possible to find an exact solution to
               the Schrödinger
               equation. Fortunately we can find an approximate solution by making use of
-              <a href="http://en.wikipedia.org/wiki/Calculus_of_variations" target="_blank">functional variation</a>.
+              <a class="link-success" href="http://en.wikipedia.org/wiki/Calculus_of_variations" target="_blank">functional variation</a>.
             </p>
             <p>
               <strong>The variation principle states :</strong>
@@ -262,9 +262,9 @@ include './helpers/navigator.php';
             </p>
             <p>
               The
-              <a href="http://en.wikipedia.org/wiki/Perturbation_theory_(quantum_mechanics)" target="_blank"> Rayleigh-Schrödinger perturbation theory</a>
+              <a class="link-success" href="http://en.wikipedia.org/wiki/Perturbation_theory_(quantum_mechanics)" target="_blank"> Rayleigh-Schrödinger perturbation theory</a>
               and
-              <a href="http://en.wikipedia.org/wiki/Configuration_interaction" target="_blank"> configuration interaction</a>
+              <a class="link-success" href="http://en.wikipedia.org/wiki/Configuration_interaction" target="_blank"> configuration interaction</a>
               allow us to further improve the Hartree-Fock approximation.
             </p>
           </div>
@@ -397,7 +397,7 @@ include './helpers/navigator.php';
                 <p>in the Hartree-Fock equations.</p>
               </li>
               <li>
-                <p>A Slater determinant satisfies the <a href="http://en.wikipedia.org/wiki/Pauli_exclusion_principle" target="_blank">Pauli exclusion principle</a>.</p>
+                <p>A Slater determinant satisfies the <a class="link-success" href="http://en.wikipedia.org/wiki/Pauli_exclusion_principle" target="_blank">Pauli exclusion principle</a>.</p>
                 <p>The Pauli exclusion Principle states that two electrons of equal spin cannot occupy
                   the
                   same oribtal.</p>
@@ -547,9 +547,9 @@ include './helpers/navigator.php';
               This is wrong so any solution to the Hartee-Fock equations has a build-in error.
             </p>
             <p>
-              <a href="http://en.wikipedia.org/wiki/M%C3%B8ller%E2%80%93Plesset_perturbation_theory" target="_blank">Perturbation theory</a>
+              <a class="link-success" href="http://en.wikipedia.org/wiki/M%C3%B8ller%E2%80%93Plesset_perturbation_theory" target="_blank">Perturbation theory</a>
               and
-              <a href="http://en.wikipedia.org/wiki/Configuration_interaction" target="_blank">configuration interaction</a>
+              <a class="link-success" href="http://en.wikipedia.org/wiki/Configuration_interaction" target="_blank">configuration interaction</a>
               are methods to obtain a correction to the Hartree–Fock equations.
               These methods are based on the principle that a molecular wave function can be represented by a
               linear combination of several Slater determinants.
@@ -625,7 +625,7 @@ include './helpers/navigator.php';
               The exchange correlation potential cannot be determined analytical. A lot of research has been
               done and is been done to find
               an appropriate expression for the exchange correlation potential.
-              A popular exchange-correlation potential is the <a href="http://en.wikipedia.org/wiki/Hybrid_functional" target="_blank">B3LYP</a> potential.
+              A popular exchange-correlation potential is the <a class="link-success" href="http://en.wikipedia.org/wiki/Hybrid_functional" target="_blank">B3LYP</a> potential.
             </p>
           </div>
         </div>

@@ -65,13 +65,13 @@ function make_structure_theory_nav($pageNbr) {
     echo"<nav aria-label='Course navigation'>".
             "<ul class='pagination justify-content-center'>".
                 "<li class='page-item $start_invisible'>".
-                    "<a class='page-link'".
+                    "<a class='page-link link-success'".
                         "href='./moleculestructuretheory.php?pagenbr=$previous_page_nbr'>".
                         "<i class='bi bi-caret-left-square'></i>  $previous".         
                     "</a>".
                 "</li>".
                 "<li class='page-item $end_invisible'>".
-                    "<a class='page-link'".
+                    "<a class='page-link link-success'".
                         "href = './moleculestructuretheory.php?pagenbr=$next_page_nbr'>".
                         "$next <i class='bi bi-caret-right-square'></i>".
                     "</a>".
