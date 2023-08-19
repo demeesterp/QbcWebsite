@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-    include './helpers/head.php';
-    include './helpers/header.php';
-    include './helpers/footer.php';
+include './helpers/head.php';
+include './helpers/header.php';
+include './helpers/footer.php';
 ?>
+
 <head>
     <?php makehead(); ?>
     <title>Quantum Biochemistry</title>
 </head>
+
 <body>
     <div class="container">
         <header class="row mb-3">
@@ -18,12 +20,20 @@
         </header>
         <section class="row mb-3">
             <div class="col">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="./index.php">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Chemical Software</li>
-                    </ol>
-                </nav>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link link-success" aria-current="page" href="./index.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-success" href="./moleculestructuretheory.php?pagenbr=1">Molecule Structure Theory</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-success" href="./chemicalreactivity.php">Lewis Acids and Bases</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./chemicalsoftware.php">Chemical Software</a>
+                    </li>
+                </ul>
             </div>
         </section>
         <section class="row mb-3">
@@ -40,13 +50,13 @@
                         I use a dedicated computer to do the calculations.
                     </p>
                     <p>
-                        Additionally you will probably want to visualise the molecules and the results of the quantum calculations. 
-                        And for reporting you will need at least a spreadsheet and maybe you can write some of your own software.                       
+                        Additionally you will probably want to visualise the molecules and the results of the quantum calculations.
+                        And for reporting you will need at least a spreadsheet and maybe you can write some of your own software.
                     </p>
                     <p>
-                        Writing your own software can take a lot of time. 
-                        If you plan to do serious research that I advise you to look at more advanced 
-                        software systems like the <a href="https://www.wolfram.com/" target="_blank">Wolfram Language</a> 
+                        Writing your own software can take a lot of time.
+                        If you plan to do serious research that I advise you to look at more advanced
+                        software systems like the <a href="https://www.wolfram.com/" target="_blank">Wolfram Language</a>
                         They are not free of charge but can make you save a lot of time.
                     </p>
                 </div>
@@ -56,17 +66,17 @@
             <div class="col">
                 <h4 class="olive mb-2">Quantum chemical software</h4>
                 <div class="bg-body-tertiary rounded p-2 mb-2">
-                     <p>
-                        Currently only <abbr title="The General Atomic and Molecular Electronic Structure System" class="initialism" >GAMESS</abbr> can be obtained free of charge. 
+                    <p>
+                        Currently only <abbr title="The General Atomic and Molecular Electronic Structure System" class="initialism">GAMESS</abbr> can be obtained free of charge.
                         The software is provided by <a href="http://www.msg.ameslab.gov/" target="_blank">Mark Gordon's Quantum Theory Group</a>.
-                        There is a version available for windows that is easy to install and easy to use. 
-                        Check out the website at <a  href="http://www.msg.ameslab.gov/" target="_blank">http://www.msg.ameslab.gov/</a>
+                        There is a version available for windows that is easy to install and easy to use.
+                        Check out the website at <a href="http://www.msg.ameslab.gov/" target="_blank">http://www.msg.ameslab.gov/</a>
                         for all info related to download, installation and use of their software.
-                     </p>
-                     <p>
-                        A list of other software systems that can be used for quantum chemistry is available on 
+                    </p>
+                    <p>
+                        A list of other software systems that can be used for quantum chemistry is available on
                         <a href="http://en.wikipedia.org/wiki/List_of_quantum_chemistry_and_solid-state_physics_software" target="_blank">wikipedia</a>
-                     </p>
+                    </p>
                 </div>
                 <h4 class="olive mb-2">Software to visualise and build molecules</h4>
                 <div class="bg-body-tertiary rounded p-2 mb-2">
@@ -76,7 +86,7 @@
                             several molecular modelling software systems
                         </a> available, some of them expensive.
                         A popular software is <a href="https://two.avogadro.cc/" target="_blank">Avogadro</a>.
-                        We use Avogadro a free and open source software. 
+                        We use Avogadro a free and open source software.
                         We also use <a href="http://brettbode.github.io/wxmacmolplt/" target="_blank">MacMolPlt</a> a freeware software.
                     </p>
                 </div>
@@ -85,4 +95,5 @@
         <?php makefooter(); ?>
     </div>
 </body>
+
 </html>

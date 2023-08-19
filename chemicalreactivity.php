@@ -10,7 +10,7 @@ include './helpers/footer.php';
     <?php makehead(); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/2.0.1/3Dmol-min.js"></script>
     <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>  
-    <title>Chemical Reactivity</title>
+    <title>Lewis Acids and Bases</title>
 </head>
 <body>
     <div class="container">
@@ -21,12 +21,20 @@ include './helpers/footer.php';
     </header>
     <section class="row mb-3">
       <div class="col">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="./index.php">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Chemical Reactivity</li>
-          </ol>
-        </nav>
+      <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link link-success" aria-current="page" href="./index.php">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-success" href="./moleculestructuretheory.php?pagenbr=1">Molecule Structure Theory</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./chemicalreactivity.php">Lewis Acids and Bases</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-success" href="./chemicalsoftware.php">Chemical Software</a>
+          </li>
+        </ul>
       </div>
     </section>
     <section class="row mb-3">
