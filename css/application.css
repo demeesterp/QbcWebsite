@@ -7,6 +7,10 @@ h1.red, h2.red, h3.red, h4.red, h5.red {
     color: #800000;
 }
 
+a.nav-link.active {
+    color: #800000 !important;
+    font-size: larger;
+}
 
 /* Styles for general use */
 img.intext {

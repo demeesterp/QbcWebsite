@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-include './helpers/head.php';
-include './helpers/header.php';
-include './helpers/footer.php';
+include './helpers/helpers-include.php';
 include './helpers/navigator.php';
 ?>
 
@@ -23,20 +21,7 @@ include './helpers/navigator.php';
     </header>
     <section class="row mb-3">
       <div class="col">
-        <ul class="nav nav-tabs">
-          <li class="nav-item">
-            <a class="nav-link link-success" aria-current="page" href="./index.php">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="./moleculestructuretheory.php?pagenbr=1">Molecule Structure Theory</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="./chemicalreactivity.php">Lewis Acids and Bases</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="./chemicalsoftware.php">Chemical Software</a>
-          </li>
-        </ul>
+        <?php echo make_main_menu() ?>
       </div>
     </section>
     <?php if ($page_nbr == 1) { ?>
@@ -634,12 +619,20 @@ include './helpers/navigator.php';
     <?php make_structure_theory_nav($page_nbr) ?>
     <footer class="row">
       <div class="col">
-        <p><strong>References :</strong></p>
+        <p class="mb-2">
+          <cite>
+            <strong>
+                References :
+            </strong>
+          </cite>
+        </p>
         <div class="bg-body-tertiary rounded p-2">
-          <ul>
-            <li>Modern Quantum Chemistry: Introduction to Advanced Electronic Structure Theory Attila Szabo, Neil S. Ostlund</li>
-            <li>R.G. Parr, W. Yang, Density Functional Theory of Atoms and Molecules, Oxford University Press, New York, 1989</li>
-          </ul>
+          <cite>
+            <ul>
+              <li>Modern Quantum Chemistry: Introduction to Advanced Electronic Structure Theory Attila Szabo, Neil S. Ostlund</li>
+              <li>R.G. Parr, W. Yang, Density Functional Theory of Atoms and Molecules, Oxford University Press, New York, 1989</li>
+            </ul>
+          </cite>
         </div>
       </div>
     </footer>

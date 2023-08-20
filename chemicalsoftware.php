@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php
-include './helpers/head.php';
-include './helpers/header.php';
-include './helpers/footer.php';
-?>
-
+<?php include './helpers/helpers-include.php'; ?>
 <head>
     <?php makehead(); ?>
     <title>Quantum Biochemistry</title>
@@ -20,20 +15,7 @@ include './helpers/footer.php';
         </header>
         <section class="row mb-3">
             <div class="col">
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link link-success" aria-current="page" href="./index.php">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-success" href="./moleculestructuretheory.php?pagenbr=1">Molecule Structure Theory</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-success" href="./chemicalreactivity.php">Lewis Acids and Bases</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./chemicalsoftware.php">Chemical Software</a>
-                    </li>
-                </ul>
+                <?php echo make_main_menu() ?>
             </div>
         </section>
         <section class="row mb-3">

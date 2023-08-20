@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php
-include './helpers/head.php';
-include './helpers/header.php';
-include './helpers/footer.php';
-?>
+<?php include './helpers/helpers-include.php'; ?>
 
 <head>
     <?php makehead(); ?>
@@ -21,20 +17,7 @@ include './helpers/footer.php';
     </header>
     <section class="row mb-3">
       <div class="col">
-      <ul class="nav nav-tabs">
-          <li class="nav-item">
-            <a class="nav-link link-success" aria-current="page" href="./index.php">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="./moleculestructuretheory.php?pagenbr=1">Molecule Structure Theory</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="./chemicalreactivity.php">Lewis Acids and Bases</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-success" href="./chemicalsoftware.php">Chemical Software</a>
-          </li>
-        </ul>
+        <?php echo make_main_menu()?>
       </div>
     </section>
     <section class="row mb-3">
@@ -211,28 +194,39 @@ include './helpers/footer.php';
                              </table>
                         </div>
                         <div class="w-50 ms-3">
-                            <div style="height: 400px; width: 500px; position: relative;" 
-                                    class='viewer_3Dmoljs' 
-                                    data-href="./molecules/acetate_structure.xyz"
-                                    data-type="xyz"
-                                    data-backgroundcolor='black' 
-                                    data-style='stick' 
-                                    data-ui='true'>
-                            </div>
+                            <figure>
+                                <div style="height: 270px; width: 500px; position: relative; cursor:pointer;" 
+                                        class='viewer_3Dmoljs mb-2' 
+                                        data-href="./molecules/acetate_structure.xyz"
+                                        data-type="xyz"
+                                        data-backgroundcolor='0xffffff' 
+                                        data-style='stick' 
+                                        data-ui='false'>
+                                </div>
+                                <figcaption>
+                                    <cite>
+                                        For 3D rendering read Nicholas Rego and David Koes 3Dmol.js: molecular visualization with WebGL
+                                        Bioinformatics (2015) 31 (8): 1322-1324 doi:10.1093/bioinformatics/btu829
+                                    </cite>
+                                </figcaption>
+                            </figure>
+                            
                         </div>
                     </div>
                 </p>
                 <p>
-                    <strong>Further reading on this subject :</strong>
-                    <ul>
-                        <li>U.C.Singh, P.A.Kollman, J.Comput.Chem. 5, 129-145(1984)</li>
-                        <li>L.E.Chirlain, M.M.Francl, J.Comput.Chem. 8, 894-905(1987)</li>
-                        <li>R.J.Woods, M.Khalil, W.Pell, S.H.Moffatt, V.H.Smith, J.Comput.Chem. 11, 297-310(1990)</li>
-                        <li>C.M.Breneman, K.B.Wiberg, J.Comput.Chem. 11, 361-373(1990)</li>
-                        <li>K.M.Merz, J.Comput.Chem. 13, 749(1992)</li>
-                        <li> M.A.Spackman, J.Comput.Chem. 17, 1-18(1996)</li>
-                    </ul>
-                </p>
+                    <cite>
+                        <strong>Further reading on this subject :</strong>
+                        <ul>
+                            <li>U.C.Singh, P.A.Kollman, J.Comput.Chem. 5, 129-145(1984)</li>
+                            <li>L.E.Chirlain, M.M.Francl, J.Comput.Chem. 8, 894-905(1987)</li>
+                            <li>R.J.Woods, M.Khalil, W.Pell, S.H.Moffatt, V.H.Smith, J.Comput.Chem. 11, 297-310(1990)</li>
+                            <li>C.M.Breneman, K.B.Wiberg, J.Comput.Chem. 11, 361-373(1990)</li>
+                            <li>K.M.Merz, J.Comput.Chem. 13, 749(1992)</li>
+                            <li> M.A.Spackman, J.Comput.Chem. 17, 1-18(1996)</li>
+                        </ul>
+                    </cite>
+                </p>  
             </div>
             <h4 class="olive mb-2">Frontier controlled reactions :</h4>
             <div class="bg-body-tertiary rounded p-2 mb-2">
@@ -275,30 +269,36 @@ include './helpers/footer.php';
     </section>
     <footer class="row">
       <div class="col">
-        <p><strong>References :</strong></p>
+        <p class="mb-2">
+            <cite>
+                <strong>
+                    References :
+                </strong>
+            </cite>
+        </p>
         <div class="bg-body-tertiary rounded p-2 mb-2">
-            <ul>
-                <li>Chemical Reactivity and Reaction Paths, Edited by Gilles Klopman, John Wiley &amp; Sons, 1974 </li>
-                <li>Electronic Population Analysis on LCOA-MO Molecular Wave Functions. I R.S. Mulliken Laboratory of Molecular Structure and
-                    Spectra, Department of Physics, The University of Chicago, Chicago 37, Illinois The Journal of Chemical Physics
-                    p1833 Volume 23, Number 10 October 1955
-                </li>
-                <li>
-                    Electronic Population Analysis on LCOA-MO Molecular Wave Functions. II Overlap populations, bond orders, and covalent bond
-                    energies R.S. Mulliken Laboratory of Molecular Strcuture and Spectra, Deparmtnet of Physics, The University of
-                    Chicago, Chicago 37, Illinois The Journal of Chemical Physics p1841 Volume 23, Number 10 October 1955
-                </li>
-                <li>U.C.Singh, P.A.Kollman, J.Comput.Chem. 5, 129-145(1984)</li>
-                <li>L.E.Chirlain, M.M.Francl, J.Comput.Chem. 8, 894-905(1987)</li>
-                <li>R.J.Woods, M.Khalil, W.Pell, S.H.Moffatt, V.H.Smith,</li>
-                <li>J.Comput.Chem. 11, 297-310(1990)</li>
-                <li>C.M.Breneman, K.B.Wiberg, J.Comput.Chem. 11, 361-373(1990)</li>
-                <li>K.M.Merz, J.Comput.Chem. 13, 749(1992)</li>
-                <li>M.A.Spackman, J.Comput.Chem. 17, 1-18(1996)</li>
-                <li>W. Yang, W.J. Mortier, J. Am. Chem. Soc. 108(1986) 5708-5711.</li>
-                <li>Nicholas Rego and David Koes 3Dmol.js: molecular visualization with WebGL
-                    Bioinformatics (2015) 31 (8): 1322-1324 doi:10.1093/bioinformatics/btu829</li>
-            </ul>
+            <cite>
+                <ul>
+                    <li>Chemical Reactivity and Reaction Paths, Edited by Gilles Klopman, John Wiley &amp; Sons, 1974 </li>
+                    <li>Electronic Population Analysis on LCOA-MO Molecular Wave Functions. I R.S. Mulliken Laboratory of Molecular Structure and
+                        Spectra, Department of Physics, The University of Chicago, Chicago 37, Illinois The Journal of Chemical Physics
+                        p1833 Volume 23, Number 10 October 1955
+                    </li>
+                    <li>
+                        Electronic Population Analysis on LCOA-MO Molecular Wave Functions. II Overlap populations, bond orders, and covalent bond
+                        energies R.S. Mulliken Laboratory of Molecular Strcuture and Spectra, Deparmtnet of Physics, The University of
+                        Chicago, Chicago 37, Illinois The Journal of Chemical Physics p1841 Volume 23, Number 10 October 1955
+                    </li>
+                    <li>U.C.Singh, P.A.Kollman, J.Comput.Chem. 5, 129-145(1984)</li>
+                    <li>L.E.Chirlain, M.M.Francl, J.Comput.Chem. 8, 894-905(1987)</li>
+                    <li>R.J.Woods, M.Khalil, W.Pell, S.H.Moffatt, V.H.Smith,</li>
+                    <li>J.Comput.Chem. 11, 297-310(1990)</li>
+                    <li>C.M.Breneman, K.B.Wiberg, J.Comput.Chem. 11, 361-373(1990)</li>
+                    <li>K.M.Merz, J.Comput.Chem. 13, 749(1992)</li>
+                    <li>M.A.Spackman, J.Comput.Chem. 17, 1-18(1996)</li>
+                    <li>W. Yang, W.J. Mortier, J. Am. Chem. Soc. 108(1986) 5708-5711.</li>
+                </ul>
+            </cite>
         </div>
       </div>
     </footer>

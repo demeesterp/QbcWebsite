@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php
-include './helpers/head.php';
-include './helpers/header.php';
-include './helpers/footer.php';
-?>
+<?php include './helpers/helpers-include.php'; ?>
 
 <head>
     <?php makehead(); ?>
@@ -22,25 +18,12 @@ include './helpers/footer.php';
         </header>
         <section class="row mb-3">
             <div class="col">
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-success" href="./moleculestructuretheory.php?pagenbr=1">Molecule Structure Theory</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-success" href="./chemicalreactivity.php">Lewis Acids and Bases</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-success" href="./chemicalsoftware.php">Chemical Software</a>
-                    </li>
-                </ul>
+                <?php echo make_main_menu() ?>
             </div>
         </section>
         <section class="row mb-3">
             <div class="col-9">
-                <h4 class="olive mb-4">Why Quantumbiochemistry.org ?</h4>
+                <h4 class="olive mb-4">Why quantumbiochemistry.org ?</h4>
                 <div class="bg-body-tertiary rounded p-2 mb-2">
                     <p>
                         The goal of this site is to demonstrate how quantum mechanics can contribute to the understanding of biochemistry, molecular biology and biology.
@@ -166,10 +149,21 @@ include './helpers/footer.php';
             </div>
             <div class="col-3 align-self-center">
                 <figure class="figure">
-                    <div style="height: 400px; width: 400px; position: relative; cursor:pointer;" class='viewer_3Dmoljs' data-href="./molecules/rosmaricine.xyz" data-type="xyz" data-backgroundcolor='0xffffff' data-style='stick' data-ui='false'>
+                    <div style="height: 400px; width: 400px; position: relative; cursor:pointer;" 
+                            class='viewer_3Dmoljs' 
+                            data-href="./molecules/rosmaricine.xyz" 
+                            data-type="xyz" 
+                            data-backgroundcolor='0xffffff' 
+                            data-style='stick' 
+                            data-ui='false'>
                     </div>
                     <figcaption>
-                        Rosmaricine is found in rosemary and has anti-inflamatory properties.
+                        <p>
+                            Rosmaricine is found in rosemary and has anti-inflamatory properties.
+                        </p>
+                        <cite class="fs-6">
+                            <small> Nicholas Rego and David Koes 3Dmol.js: molecular visualization with WebGL Bioinformatics (2015) 31 (8): 1322-1324 doi:10.1093/bioinformatics/btu829</small>
+                        </cite>
                     </figcaption>
                 </figure>
             </div>
