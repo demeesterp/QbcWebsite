@@ -65,7 +65,7 @@ include './helpers/navigator.php';
       <section class="row mb-3">
         <div class="col">
           <h4 class="olive mb-4">
-            The adiabatic approximation : The motion of the nuclei and the electrons don't influence one another.
+            The adiabatic approximation : The motion of the nuclei and the electrons don't influence one another
           </h4>
           <div class="bg-body-tertiary rounded p-2 mb-1">
             <p>
