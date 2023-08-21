@@ -47,7 +47,7 @@ include './helpers/navigator.php';
                 <a class="link-success" href="https://www.youtube.com/watch?v=Z5cq7JpsG8I&list=PLEq9ArCsv6EAwaZFY-7oyZCyce8VnxodZ" target="_blank">electronic structure theory</a>.
               </li>
               <li>
-                <strong>Some examples of books on quantum chemistry :</strong>
+                <strong>Some examples of books on quantum chemistry:</strong>
                 <ul>
                   <li>Quantum Chemistry by Donald A. McQuarrie</li>
                   <li>Modern Quantum Chemistry by Attila Szabo and Neil S. Ostlund</li>
@@ -620,7 +620,7 @@ include './helpers/navigator.php';
     <footer class="row">
       <div class="col">
         <p class="mb-2">
-            <strong>References :</strong>
+            <strong>References</strong>
         </p>
         <div class="bg-body-tertiary rounded p-2">
           <cite class="std">

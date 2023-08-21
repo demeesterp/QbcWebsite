@@ -82,13 +82,17 @@
                 <p>
                     <a class="link-success" href="https://en.wikipedia.org/wiki/Kenichi_Fukui" target="blank"> Kenichi Fukui</a>
                     originally proposed the frontier molecular orbital theory.
-                    See G. Klopman, Chemical Reactivity and Reactions Paths , p23-50 Wiley, New York, 1974. Fukui modeled a charge transfer by considering 3 situations.
+                    See G. Klopman, Chemical Reactivity and Reactions Paths , p23-50 Wiley, New York, 1974. 
                 </p>
-                <ul>
-                    <li>Lewis Acid A and Lewis Base B are both in their ground state, no charge transfer occurs.</li>
-                    <li>Lewis base B has one electron excited, Lewis acid A is in its ground state.</li>
-                    <li>Lewis base B has transferred one electron to Lewis acid A.</li>
-                </ul>
+                <p>
+                    Fukui modeled a charge transfer by considering 3 situations:
+                    <ul>
+                        <li>Lewis Acid A and Lewis Base B are both in their ground state, no charge transfer occurs.</li>
+                        <li>Lewis base B has one electron excited, Lewis acid A is in its ground state.</li>
+                        <li>Lewis base B has transferred one electron to Lewis acid A.</li>
+                    </ul>
+                </p>
+                
                 <p>
                     Each situation can be represented by a Slater determinant and a Hamiltonian can be defined for that system. As a consequence
                     one can apply the variational principle to the model. By analysing the resulting equation he could explain
@@ -137,7 +141,7 @@
                             <img src="./images/chemicalreactivity/acetic acid mep.jpeg" class="figure-img img-fluid rounded" alt="molecular electrostatic potential of acetic acid">
                             <figcaption class="figure-caption text-center">
                                 <small>
-                                    molecular electrostatic potential of acetic acid (red color is negative charge)
+                                    Molecular electrostatic potential of acetic acid (red color is negative charge).
                                 </small> 
                             </figcaption>
                         </figure>
@@ -145,7 +149,7 @@
                             <img src="./images/chemicalreactivity/acetate base.jpeg" class="figure-img img-fluid rounded" alt="molecular electrostatic potential of acetate">
                             <figcaption class="figure-caption text-center">
                                <small>
-                                    molecular electrostatic potential of acetate (red color is negative charge)
+                                    Molecular electrostatic potential of acetate (red color is negative charge).
                                 </small> 
                             </figcaption>
                         </figure>
@@ -205,6 +209,7 @@
                              </table>
                         </div>
                         <div class="w-50 ms-3">
+                            <p>&nbsp;</p>
                             <figure class="figure">
                                 <div style="height: 270px; width: 600px; position: relative; cursor:pointer;" 
                                         class='viewer_3Dmoljs mb-2' 
@@ -223,7 +228,6 @@
                                     </cite>
                                 </figcaption>
                             </figure>
-                            
                         </div>
                     </div>
                 </p>
