@@ -50,7 +50,7 @@
                 <div class="bg-body-tertiary rounded p-2 mb-2">
                     <p>
                         Currently only <abbr title="The General Atomic and Molecular Electronic Structure System" class="initialism">GAMESS</abbr> can be obtained free of charge.
-                        The software is provided by <a class="link-success" href="http://www.msg.ameslab.gov/" target="_blank">Mark Gordon's Quantum Theory Group</a>.
+                        The software is provided by Mark Gordon's Quantum Theory Group.
                         There is a version available for windows that is easy to install and easy to use.
                         Check out the website at <a class="link-success" href="http://www.msg.ameslab.gov/" target="_blank">http://www.msg.ameslab.gov/</a>
                         for all info related to download, installation and use of their software.
