@@ -135,11 +135,19 @@
                     <div class="d-flex flex-row">
                         <figure class="figure">
                             <img src="./images/chemicalreactivity/acetic acid mep.jpeg" class="figure-img img-fluid rounded" alt="molecular electrostatic potential of acetic acid">
-                            <figcaption class="figure-caption text-center">molecular electrostatic potential of acetic acid (red color is negative charge)</figcaption>
+                            <figcaption class="figure-caption text-center">
+                                <small>
+                                    molecular electrostatic potential of acetic acid (red color is negative charge)
+                                </small> 
+                            </figcaption>
                         </figure>
                         <figure class="figure">
                             <img src="./images/chemicalreactivity/acetate base.jpeg" class="figure-img img-fluid rounded" alt="molecular electrostatic potential of acetate">
-                            <figcaption class="figure-caption text-center">molecular electrostatic potential of acetate (red color is negative charge)</figcaption>
+                            <figcaption class="figure-caption text-center">
+                               <small>
+                                    molecular electrostatic potential of acetate (red color is negative charge)
+                                </small> 
+                            </figcaption>
                         </figure>
                     </div>
                 </p>
@@ -154,7 +162,10 @@
                 <p>
                     <div class="d-flex flex-row">
                         <div class="w-50">
-                            <table class="table">
+                            <table class="table caption-top">
+                                <caption>
+                                    <strong>Electrostatic properties of Acetate</strong>
+                                </caption>
                                 <thead>
                                     <tr>
                                         <th>Atom</th>
@@ -194,8 +205,8 @@
                              </table>
                         </div>
                         <div class="w-50 ms-3">
-                            <figure>
-                                <div style="height: 270px; width: 500px; position: relative; cursor:pointer;" 
+                            <figure class="figure">
+                                <div style="height: 270px; width: 600px; position: relative; cursor:pointer;" 
                                         class='viewer_3Dmoljs mb-2' 
                                         data-href="./molecules/acetate_structure.xyz"
                                         data-type="xyz"
@@ -203,10 +214,12 @@
                                         data-style='stick' 
                                         data-ui='false'>
                                 </div>
-                                <figcaption>
+                                <figcaption class="figure-caption">
                                     <cite>
-                                        For 3D rendering read Nicholas Rego and David Koes 3Dmol.js: molecular visualization with WebGL
-                                        Bioinformatics (2015) 31 (8): 1322-1324 doi:10.1093/bioinformatics/btu829
+                                        <small>
+                                            For 3D rendering read Nicholas Rego and David Koes 3Dmol.js: molecular visualization with WebGL
+                                            Bioinformatics (2015) 31 (8): 1322-1324 doi:10.1093/bioinformatics/btu829
+                                        </small> 
                                     </cite>
                                 </figcaption>
                             </figure>
@@ -214,9 +227,8 @@
                         </div>
                     </div>
                 </p>
-                <p>
-                    <cite>
-                        <strong>Further reading on this subject :</strong>
+                    Further reading on this subject :
+                    <cite class="std">
                         <ul>
                             <li>U.C.Singh, P.A.Kollman, J.Comput.Chem. 5, 129-145(1984)</li>
                             <li>L.E.Chirlain, M.M.Francl, J.Comput.Chem. 8, 894-905(1987)</li>
@@ -226,7 +238,6 @@
                             <li> M.A.Spackman, J.Comput.Chem. 17, 1-18(1996)</li>
                         </ul>
                     </cite>
-                </p>  
             </div>
             <h4 class="olive mb-2">Frontier controlled reactions</h4>
             <div class="bg-body-tertiary rounded p-2 mb-2">
@@ -270,14 +281,12 @@
     <footer class="row">
       <div class="col">
         <p class="mb-2">
-            <cite>
-                <strong>
-                    References
-                </strong>
-            </cite>
+            <strong>
+                References
+            </strong>
         </p>
         <div class="bg-body-tertiary rounded p-2 mb-2">
-            <cite>
+            <cite class="std">
                 <ul>
                     <li>Chemical Reactivity and Reaction Paths, Edited by Gilles Klopman, John Wiley &amp; Sons, 1974 </li>
                     <li>Electronic Population Analysis on LCOA-MO Molecular Wave Functions. I R.S. Mulliken Laboratory of Molecular Structure and

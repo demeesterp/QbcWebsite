@@ -12,6 +12,22 @@ a.nav-link.active {
     font-size: larger;
 }
 
+figure > figcaption > cite > small {
+    font-size: small;
+    color:darkblue;
+}
+
+figure > figcaption > small {
+    font-size: small;
+    color:darkblue;
+}
+
+cite.std {
+    font-size: small;
+    color:darkblue;
+}
+
+
 /* Styles for general use */
 img.intext {
     float: right;

@@ -620,14 +620,10 @@ include './helpers/navigator.php';
     <footer class="row">
       <div class="col">
         <p class="mb-2">
-          <cite>
-            <strong>
-                References :
-            </strong>
-          </cite>
+            <strong>References :</strong>
         </p>
         <div class="bg-body-tertiary rounded p-2">
-          <cite>
+          <cite class="std">
             <ul>
               <li>Modern Quantum Chemistry: Introduction to Advanced Electronic Structure Theory Attila Szabo, Neil S. Ostlund</li>
               <li>R.G. Parr, W. Yang, Density Functional Theory of Atoms and Molecules, Oxford University Press, New York, 1989</li>
