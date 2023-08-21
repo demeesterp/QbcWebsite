@@ -65,7 +65,7 @@
         </section>
         <section class="row">
             <div class="col-9">
-                <h4 class="olive mb-4">In a nutshell :</h4>
+                <h4 class="olive mb-4">In a nutshell</h4>
                 <h5 class="red">Molecular Structure Theory</h5>
                 <div class="bg-body-tertiary rounded p-2 mb-2">
                     <p>

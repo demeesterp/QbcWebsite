@@ -31,7 +31,7 @@
                     Because of this there is a theory that relates the chemical structure to the possible chemical reactions.
                 </p>
             </div>
-            <h4 class="olive mb-2">The role of lewis acid and base reactions in biochemistry and molecular biology:</h4>
+            <h4 class="olive mb-2">The role of lewis acid and base reactions in biochemistry and molecular biology</h4>
             <div class="bg-body-tertiary rounded p-2 mb-2">
                 <p>
                     A Lewis acid is a molecule that can accept an electron pair from another molecule the Lewis base.
@@ -51,7 +51,7 @@
                 </p>
                 <p>The Lewis acid-base theory will enable us to understand the way macromolecules, water and ions interact.</p>
             </div>
-            <h4 class="olive mb-2">Quantum chemical principles on Lewis acid-base reactions :</h4>
+            <h4 class="olive mb-2">Quantum chemical principles on Lewis acid-base reactions</h4>
             <div class="bg-body-tertiary rounded p-2 mb-2">
                 <p>Quantum chemistry allows us to make a comprehensive theoretical analysis on the mechanisms that govern a Lewis acid-base reaction.</p>
                 <p> The rate at which the reaction occurs and the nature of the products depends on the 
@@ -110,7 +110,7 @@
                     orbital theory and the Hard-Soft-Acid-Base principle" J. Am. Chem. Soc. 1995, 117, 7756-7759.
                 </p>
             </div>
-            <h4 class="olive mb-2">The calculation of the molecular electrostatic potential :</h4>
+            <h4 class="olive mb-2">The calculation of the molecular electrostatic potential</h4>
             <div class="bg-body-tertiary rounded p-2 mb-2">
                 <p>
                     The molecular electrostatic potential ( M.E.P.) is the coulombic interaction energy between a positive charge represented
@@ -123,7 +123,7 @@
                     Lewis acid-base reactions.
                 </p>
                 <p>
-                    <p>The M.E.P. is calculated as :</p>
+                    <p>The M.E.P. is calculated as</p>
                     <img class="img-responsive equation" alt="molecular electrostatic potential" src="../images/molecular%20electrostatic%20potential.gif" />
                     <p>
                         The positive charge is located at position r(x,y,z), &rho;(r') is the electron density of the molecule at
@@ -144,7 +144,7 @@
                     </div>
                 </p>
             </div>
-            <h4 class="olive mb-2">Fitting atomic charges to the molecular electrostatic potential :</h4>
+            <h4 class="olive mb-2">Fitting atomic charges to the molecular electrostatic potential</h4>
             <div class="bg-body-tertiary rounded p-2 mb-2">
                 <p>
                     It is possible to attribute partial charges to the atoms of a molecule that fit its M.E.P. . The M.E.P. is then evaluated
@@ -228,7 +228,7 @@
                     </cite>
                 </p>  
             </div>
-            <h4 class="olive mb-2">Frontier controlled reactions :</h4>
+            <h4 class="olive mb-2">Frontier controlled reactions</h4>
             <div class="bg-body-tertiary rounded p-2 mb-2">
                 <p>
                     R.S. Mulliken developed a systematic procedure to obtain maximum insight onto the LCAO MO wave function for a molecule. This
@@ -241,7 +241,7 @@
                     <li>To obain the HOMO add 1 electron to the model and calculate the mulliken population analysis, then calculate the difference with the original model.</li>
                 </ul>
             </div>
-            <h4 class="olive mb-2">Interpretation of the reactivity indices in chemistry and biochemistry :</h4>
+            <h4 class="olive mb-2">Interpretation of the reactivity indices in chemistry and biochemistry</h4>
             <div class="bg-body-tertiary rounded p-2 mb-2">
                 <p>
                     The highest occupied molecular orbital of a molecule has the highest electron density located on the atom or atoms that act
@@ -272,7 +272,7 @@
         <p class="mb-2">
             <cite>
                 <strong>
-                    References :
+                    References
                 </strong>
             </cite>
         </p>

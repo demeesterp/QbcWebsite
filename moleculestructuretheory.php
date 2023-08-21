@@ -27,7 +27,7 @@ include './helpers/navigator.php';
     <?php if ($page_nbr == 1) { ?>
       <section class="row mb-3">
         <div class="col">
-          <h4 class="olive mb-4">Introduction :</h4>
+          <h4 class="olive mb-4">Introduction</h4>
           <div class="bg-body-tertiary rounded p-2">
             <p>
               The <strong>electronic structure theory</strong> explains how to find an approximate solution to the <strong>electronic molecular wave-function</strong>.
@@ -258,7 +258,7 @@ include './helpers/navigator.php';
     <?php } elseif ($page_nbr == 5) { ?>
       <section class="row mb-3">
         <div class="col">
-          <h4 class="olive mb-4">The Hartree-Fock approximation:</h4>
+          <h4 class="olive mb-4">The Hartree-Fock approximation</h4>
           <div class="bg-body-tertiary rounded p-2 mb-1">
             <p>
               This method is the most basic of the methods used with electronic structure calculations.
@@ -524,7 +524,7 @@ include './helpers/navigator.php';
     <?php } elseif ($page_nbr == 6) { ?>
       <section class="row mb-3">
         <div class="col">
-          <h4 class="olive mb-4">The Möller-Plesset perturbation theory and configuration interaction:</h4>
+          <h4 class="olive mb-4">The Möller-Plesset perturbation theory and configuration interaction</h4>
           <div class="bg-body-tertiary rounded p-2 mb-1">
             <p>
               The weakness of the Hartree-Fock method is that it allows electrons of unparallel spin to move
@@ -552,7 +552,7 @@ include './helpers/navigator.php';
     <?php } elseif ($page_nbr == 7) { ?>
       <section class="row mb-3">
         <div class="col">
-          <h4 class="olive mb-4">The density functional theory:</h4>
+          <h4 class="olive mb-4">The density functional theory</h4>
           <div class="bg-body-tertiary rounded p-2 mb-1">
             <p>
               The Density Functional Theory departs from the principle that the electrons density
