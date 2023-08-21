@@ -157,7 +157,7 @@
                             data-style='stick' 
                             data-ui='false'>
                     </div>
-                    <figcaption>
+                    <figcaption class="figure-caption">
                         <p>
                             Rosmaricine is found in rosemary and has anti-inflamatory properties.
                         </p>

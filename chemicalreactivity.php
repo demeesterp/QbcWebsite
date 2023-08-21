@@ -168,12 +168,12 @@
                         <div class="w-50">
                             <table class="table caption-top">
                                 <caption>
-                                    <strong>Electrostatic properties of Acetate</strong>
+                                    <h5>Electrostatic properties of Acetate</h5>
                                 </caption>
                                 <thead>
                                     <tr>
                                         <th>Atom</th>
-                                        <th>Charge CHelpG</th>
+                                        <th>CHelpG Charge</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -209,7 +209,7 @@
                              </table>
                         </div>
                         <div class="w-50 ms-3">
-                            <p>&nbsp;</p>
+                            <p><h4>&nbsp;</h4</p>
                             <figure class="figure">
                                 <div style="height: 270px; width: 600px; position: relative; cursor:pointer;" 
                                         class='viewer_3Dmoljs mb-2' 
