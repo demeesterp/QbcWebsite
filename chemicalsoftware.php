@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include './helpers/helpers-include.php'; ?>
+
 <head>
     <?php makehead(); ?>
     <title>Quantum Biochemistry</title>
@@ -9,9 +10,7 @@
 <body>
     <div class="container">
         <header class="row mb-3">
-            <div class="col text-center">
-                <?php makeheader() ?>
-            </div>
+            <?php makeheader() ?>
         </header>
         <section class="row mb-3">
             <div class="col">

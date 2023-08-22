@@ -15,9 +15,7 @@ include './helpers/navigator.php';
 <body>
   <div class="container">
     <header class="row mb-3">
-      <div class="col text-center">
-        <?php makeheader() ?>
-      </div>
+      <?php makeheader() ?>
     </header>
     <section class="row mb-3">
       <div class="col">
@@ -620,7 +618,7 @@ include './helpers/navigator.php';
     <footer class="row">
       <div class="col">
         <p class="mb-2">
-            <strong>References</strong>
+          <strong>References</strong>
         </p>
         <div class="bg-body-tertiary rounded p-2">
           <cite class="std">

@@ -12,9 +12,7 @@
 <body>
     <div class="container">
         <header class="row mb-3">
-            <div class="col-12 text-center">
-                <?php makeheader() ?>
-            </div>
+            <?php makeheader() ?>
         </header>
         <section class="row mb-3">
             <div class="col">
@@ -22,7 +20,7 @@
             </div>
         </section>
         <section class="row mb-3">
-            <div class="col-9">
+            <div class="col">
                 <h4 class="olive mb-4">Why quantumbiochemistry.org ?</h4>
                 <div class="bg-body-tertiary rounded p-2 mb-2">
                     <p>
@@ -47,7 +45,7 @@
                 </div>
                 <div class="bg-body-tertiary rounded p-2">
                     <p>
-                        <span class="fw-semibold">Previous research done on this topic :</span>
+                        <span class="fw-semibold">Previous research done on this topic</span>
                     <figure>
                         <blockquote class="blockquote">
                             <p>Studies on the reaction mechanism of RNAse T1 with quantum chemical reactivity indexes.</p>
@@ -59,12 +57,9 @@
                     </p>
                 </div>
             </div>
-            <div class="col-3 align-self-center">
-                <img src="./images/intro/intro-schema.svg" class="img-fluid pt-4" alt="introduction">
-            </div>
         </section>
         <section class="row">
-            <div class="col-9">
+            <div class="col">
                 <h4 class="olive mb-4">In a nutshell</h4>
                 <h5 class="red">Molecular Structure Theory</h5>
                 <div class="bg-body-tertiary rounded p-2 mb-2">
@@ -127,6 +122,27 @@
                         You don’t need a supercomputer and a whole team of IT experts.
                         That’s why we also have an article about the software that is available free of charge.
                     </p>
+                    <p>
+                        There are also libraries availbale for online 3 dimensional viewing.
+                        Below we demonstrate this with Rosmaricine.
+                    </p>
+                    <div>
+                        <figure class="figure">
+                            <div style="height: 400px; width: 400px; position: relative; cursor:pointer;" class='viewer_3Dmoljs' data-href="./molecules/rosmaricine.xyz" data-type="xyz" data-backgroundcolor='0xffffff' data-style='stick' data-ui='false'>
+                            </div>
+                            <figcaption class="figure-caption">
+                                <p>
+                                    Rosmaricine is found in rosemary and has anti-inflamatory properties.
+                                </p>
+                                <cite>
+                                    <small>
+                                        Nicholas Rego and David Koes 3Dmol.js: molecular visualization with WebGL Bioinformatics (2015) 31 (8):
+                                        1322-1324 doi:10.1093/bioinformatics/btu829
+                                    </small>
+                                </cite>
+                            </figcaption>
+                        </figure>
+                    </div>
                 </div>
                 <div class="bg-body-tertiary rounded p-2 mb-2">
                     <p>
@@ -146,29 +162,6 @@
                         I listen to any comments, remarks suggestions. I will try to answer any questions as good as I can.
                     </p>
                 </div>
-            </div>
-            <div class="col-3 align-self-center">
-                <figure class="figure">
-                    <div style="height: 400px; width: 400px; position: relative; cursor:pointer;" 
-                            class='viewer_3Dmoljs' 
-                            data-href="./molecules/rosmaricine.xyz" 
-                            data-type="xyz" 
-                            data-backgroundcolor='0xffffff' 
-                            data-style='stick' 
-                            data-ui='false'>
-                    </div>
-                    <figcaption class="figure-caption">
-                        <p>
-                            Rosmaricine is found in rosemary and has anti-inflamatory properties.
-                        </p>
-                        <cite>
-                            <small> 
-                                Nicholas Rego and David Koes 3Dmol.js: molecular visualization with WebGL Bioinformatics (2015) 31 (8):
-                                     1322-1324 doi:10.1093/bioinformatics/btu829
-                            </small>
-                        </cite>
-                    </figcaption>
-                </figure>
             </div>
         </section>
         <?php makefooter() ?>
