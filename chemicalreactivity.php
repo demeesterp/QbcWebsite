@@ -216,13 +216,19 @@
                             <tr>
                                 <td colspan="2">
                                     <figure class="figure">
-                                        <div style="height: 200px; width:300px; position: relative; cursor:pointer;" class='viewer_3Dmoljs img-fluid mb-2' data-href="./molecules/acetate_structure.xyz" data-type="xyz" data-backgroundcolor='0xffffff' data-style='stick' data-ui='false'>
+                                        <div style="height: 200px; width:300px; position: relative; cursor:pointer;" 
+                                                class='viewer_3Dmoljs img-fluid mb-2' 
+                                                data-href="./molecules/acetate_structure.xyz" 
+                                                data-type="xyz" 
+                                                data-backgroundcolor='0xffffff' 
+                                                data-style='stick' 
+                                                data-ui='false'>
                                         </div>
                                         <figcaption class="figure-caption">
                                             <cite>
                                                 <small>
-                                                    For 3D rendering read Nicholas Rego and David Koes 3Dmol.js: molecular visualization with WebGL
-                                                    Bioinformatics (2015) 31 (8): 1322-1324 doi:10.1093/bioinformatics/btu829
+                                                    <p>For 3D rendering read Nicholas Rego and David Koes 3Dmol.js: molecular visualization with WebGL</p> 
+                                                    <p>Bioinformatics (2015) 31 (8): 1322-1324 doi:10.1093/bioinformatics/btu829</p>
                                                 </small>
                                             </cite>
                                         </figcaption>

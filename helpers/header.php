@@ -9,7 +9,7 @@ function makeheader() {
                 </div>
 
                 <div class="col-9 align-self-center">
-                    <h1 class="text-break olive">quantumbiochemistry.org</h1>
+                    <h1 class="text-break olive">Quantumbiochemistry.org </h1>
                     <h2 class="red">The quantum theory applied to biology</h2>
                 </div>
     DELIMITER;
