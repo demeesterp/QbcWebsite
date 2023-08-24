@@ -43,6 +43,9 @@
                         They are thus potentially a key to the further development of <span class="fw-semibold">nanotechnology</span>.
                     </p>
                 </div>
+                <div class="w-50 mb-2">
+                    <img class="img-fluid" src="./images/intro/SHEMA_CERCLE_SITE.svg">
+                </div>
                 <div class="bg-body-tertiary rounded p-2">
                     <p>
                         <span class="fw-semibold">Previous research done on this topic</span>
@@ -128,7 +131,7 @@
                     </p>
                     <div>
                         <figure class="figure">
-                            <div style="height: 400px; width: 400px; position: relative; cursor:pointer;" class='viewer_3Dmoljs' data-href="./molecules/rosmaricine.xyz" data-type="xyz" data-backgroundcolor='0xffffff' data-style='stick' data-ui='false'>
+                            <div style="position:relative; cursor:pointer;" class='viewer_3Dmoljs dView' data-href="./molecules/rosmaricine.xyz" data-type="xyz" data-backgroundcolor='0xffffff' data-style='stick' data-ui='false'>
                             </div>
                             <figcaption class="figure-caption">
                                 <p>
