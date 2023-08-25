@@ -43,7 +43,7 @@
                         They are thus potentially a key to the further development of <span class="fw-semibold">nanotechnology</span>.
                     </p>
                 </div>
-                <div class="w-50 mb-2">
+                <div class="w-75 mb-2">
                     <img class="img-fluid" src="./images/intro/SHEMA_CERCLE_SITE.svg">
                 </div>
                 <div class="bg-body-tertiary rounded p-2">

@@ -2,7 +2,7 @@
 
 function makeheader() {
     echo <<<'DELIMITER'
-                <div class="col text-end">
+                <div class="col logo-positioning">
                     <img class="image-fluid" 
                         src=".\images\1-Logo-Quantum-Biochemistry.png" 
                         alt="quantumbiochemistry.org">
